@@ -35,11 +35,3 @@ Shanghai.China
 ![github](https://raw.githubusercontent.com/DingSoung/dingsoung.github.com/master/_posts/attach/githubUrl.png)
 
 [Github](https://Github.com/DingSoung)
-
-
-
-Thanks for your comming, here is my resume page. PDF version [download here][Ding_Soung_Firmware_Embedded_system],thanks
-
-欢迎访问，这里是我的简历页面，PDF版本点击[这里下载][Ding_Soung_Firmware_Embedded_system],谢谢
-
-[Ding_Soung_Firmware_Embedded_system]:https://raw.githubusercontent.com/DingSoung/dingsoung.github.com/master/_posts/attach/Ding_Soung_Firmware_Embedded_system.pdf
