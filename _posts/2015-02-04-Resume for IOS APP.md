@@ -7,7 +7,6 @@ tags : [Resume]
 {% include JB/setup %}
 
 
-
 ####Detail
 丁松@DingSoung
 
@@ -33,7 +32,7 @@ Shanghai.China
 * 关注技术热点，日常浏览Github,v2ex,36Kr
 
 
-![github](https://raw.githubusercontent.com/DingSoung/dingsoung.github.com/master/_posts/attach/githubUrl)
+![github](https://raw.githubusercontent.com/DingSoung/dingsoung.github.com/master/_posts/attach/githubUrl.png)
 
 [Github](https://Github.com/DingSoung)
 
