@@ -18,18 +18,25 @@ Shanghai.China
 
 ####Programming Language & technology skills
 
-* Swift, C, Lua, Objective-C
+* Swift, C/C++, Lua, Objective-C
 * JSON,SQL,Markdown,Git,XML,HTML,CSS
-* Xcode, Sketch
+* Xcode, Sketch,
 
 
 ####About Me
-* 熟悉Swift IOS APP开发，Sketch UI design
-* 热爱新技术，手机，设计，互联网。
-* 爱折腾，用Google。
-* 嵌入式行业转做IOS开发，具备扎实的硬件编程基础。
-* 擅长学习，及时发现和解决问题，归纳总结。
-* 关注技术热点，日常浏览Github,v2ex,36Kr
+* Focus on Swift IOS APP，Sketch UI designing
+* Keen to new and trending technologies，Mobile，Network，Design etc, active at Github,V2EX,36Kr
+* Experences with Linux Firmware and Assembky hardware programming
+* Favor of Google,Gamming,IOS,Linux
+* Ability to learn，self-motivated and ambition
+
+
+####Others
+
+* I once worked with embeded system, and turn to IOS App develop since Apple's 2014 WWDC when the swift language was published, In these months I start from using basic controls,network communications,data phrase,then learn to use libraries such as SwiftyJJSON,Alamofire,also I proaticed UI designing with sketch,now I had maked several apps, and gained  my own experience, these increase self-confidence to join mobile and network developping. However ,as a new men, I know the leck of work experience, this is a unavoidable process,I must keep trying all my efforts to learn and design best apps, all I need is a oppotunity, that's why I found you.
+
+
+* why turn to current industry？Broaden my eyesight,follow my hurt, choose best,even though price of time will be paied,   It's worthy
 
 
 ![github](https://raw.githubusercontent.com/DingSoung/dingsoung.github.com/master/_posts/attach/githubUrl.png)
