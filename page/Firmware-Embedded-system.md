@@ -2,14 +2,9 @@
 layout: post
 category : about
 tagline: "Supporting tagline"
-tags : [Resume]
+tags : [Resume,About]
 ---
 {% include JB/setup %}
-
-
-
-#### Resume for Firmware Embedded system
-
 
 Thanks for your come, here is my resume page. PDF version [download here][Resume_for_Firmware_Embedded_system],thanks
 

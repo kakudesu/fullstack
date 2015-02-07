@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 category : for-hire
 tagline: "Supporting tagline"
 tags : [Resume,About]
