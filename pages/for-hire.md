@@ -1,12 +1,10 @@
----
 layout: page
-category : for-hire
-tagline: ""
-tags : [Resume,About]
+title: "for hire"
+description: ""
 ---
 {% include JB/setup %}
 
------------------------------
+---
 
 Hi, my name is Ding Soung(丁松), I‘m a software engineer from China Shanghai,I am currently seeking more suitable careers, here is my basic information, if you would like to get touch with me,send an e-mail to [DingSoung@gmail.com](mailto://DingSoung@gmail.com) or call me +86-17097762778 directly. You can also check out my [Github profile](https://github.com/DingSoung) if you like.
 
