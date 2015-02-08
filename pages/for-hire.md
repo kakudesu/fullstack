@@ -5,7 +5,7 @@ description: ""
 ---
 {% include JB/setup %}
 
-Hi, my name is Ding Soung(丁松), I‘m a software engineer from China Shanghai,I am currently seeking more suitable careers, here is my basic information, if you would like to get touch with me,send an e-mail to [DingSoung@gmail.com](mailto://DingSoung@gmail.com) or call me +86-17097762778 directly. You can also check out my [Github profile](https://github.com/DingSoung) if you like.
+Hi, my name is Ding Soung(丁松), I‘m a software engineer from China Shanghai,I am currently seeking more suitable careers, here is my basic information, if you would like to get touch with me,send an e-mail to [DingSoung@gmail.com](mailto://DingSoung@gmail.com) or call me +86-17097762778 directly. 
 
 ####Programming Language & technology skills
 
@@ -58,6 +58,7 @@ Broaden my eyesight,follow my heart, choose the best, which worth the price I pa
 * attitude
 
 ---
-scan this to view at mobile phone
 
-![github](https://raw.githubusercontent.com/DingSoung/dingsoung.github.com/master/attach/for-hire.png)
+welcome to visit my [Github Profile](https://github.com/DingSoung)
+
+![github](https://raw.githubusercontent.com/DingSoung/dingsoung.github.com/master/attach/githubUrl.png)
