@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 category : for-hire
 tagline: ""
 tags : [Resume,About]

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 category : about
 tagline: "Supporting tagline"
 tags : [Resume,About]
