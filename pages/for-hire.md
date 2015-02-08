@@ -9,9 +9,9 @@ description: ""
 * Ding Soung(丁松)/male/1990
 * Software Engineer at Shanghai China
 * B.S.Eng of Xiangnan University
+* Mobile:+86-17097762778
 * <DingSoung@gmail.com>
 * <https://github.com/DingSoung>
-* Mobile:+86-17097762778
 
 Hi, I‘m a IOS software engineer,I am currently seeking more suitable careers, here is my basic information, if you would like to get touch with me,send an e-mail or call me directly. 
 
@@ -43,9 +43,10 @@ this project is my sketch repository, which my copy painting and few self-design
 * Undergraduate Coursework:  
 Data structure, Digital signal processing, Signal and system, Embedded system, Digital communication principle
 * Research,Competition,Awards,Papers & Graduation Design:  
-In 2010, I started a project. As team leader of 5 selected members, I design the framework and detailed functions of each part. After realizing the basic feature,I improved the stability and efficiency, system memory and time are greatly saved. In 2011, we won the fund form schools, at the beginning of 2012 my papers about the project was published, at the same time, my graduation project was assessed A.
+In 2010, I started a project. As team leader of 5 selected members, I design the framework and detailed functions of each part. After realizing the basic feature,I improved the stability and efficiency, system memory and time are greatly saved. In 2011, we won the fund form schools, at the beginning of 2012 my papers about the project was published, at the same time, my graduation project was assessed A.  
 
 ---
+
 ####Others
 * I once worked on embedded system, and turn to IOS App develop since Apple's 2014 WWDC when the swift language was published, In these months I start from using basic controls,network communications,data phrase,then learn to use libraries such as SwiftyJSON,Alamofire,also I practiced UI designing with sketch,now I had make several apps, and gained  my own experience, these increase self-confidence to join mobile and network developing. However ,as a new men, I know the lack of work experience, this is a unavoidable process,I must keep trying all my efforts to learn and design best apps, all I need is an opportunity, that's why I found you.
 
@@ -63,6 +64,6 @@ In 2010, I started a project. As team leader of 5 selected members, I design the
 
 ---
 
-welcome to visit my [Github Profile](https://github.com/DingSoung)
+**welcome to visit my [Github Profile](https://github.com/DingSoung)*
 
 ![github](https://raw.githubusercontent.com/DingSoung/dingsoung.github.com/master/attach/githubUrl.png)
