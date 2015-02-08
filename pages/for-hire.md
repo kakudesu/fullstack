@@ -57,4 +57,7 @@ Broaden my eyesight,follow my heart, choose the best, which worth the price I pa
 * performance
 * attitude
 
-![github](https://raw.githubusercontent.com/DingSoung/dingsoung.github.com/master/attach/githubUrl.png)
+---
+scan this to view at mobile phone
+
+![github](https://raw.githubusercontent.com/DingSoung/dingsoung.github.com/master/attach/for-hire.png)
