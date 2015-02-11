@@ -26,17 +26,16 @@ Hi, I‘m a IOS software engineer,I am currently seeking more suitable careers, 
 * Experiences with Linux Firmware and hardware programming
 * Favor of Google,Linux,Mobile,Science technology,Hardware
 * Ability to learn，self-motivated and ambition
-//专攻技术，热衷领域，日常活跃的网站，在那些地方具有经验，偏爱哪些产品
 
 ####Personal Project & Technical summary
 1. [Online Music player](https://github.com/DingSoung/music)  
-At firs it just is a application of AVFoundation with basic control and visual objects such as precess slider,real-time,and toggle play/pause buttom,then difficulties came when I wanted to access Douban FM API, whoses data need network and JSON phrase ,at times ready－made ware rare, I try to use basic closure socket to request data and transfer it into dictinory, after a lot of learn and try, online playlist table relized reluctantly. Laterly I found Alamofire and SwiftyJSON wwhich greatly simplify the code and grasped the usages quickly.//突出学习，自我更新和应用能力
+At firs it just is a application of AVFoundation with basic control and visual objects such as precess slider,real-time,and toggle play/pause buttom,then difficulties came when I wanted to access Douban FM API, whoses data need network and JSON phrase ,at times ready－made ware rare, I try to use basic closure socket to request data and transfer it into dictinory, after a lot of learn and try, online playlist table relized reluctantly. Laterly I found Alamofire and SwiftyJSON wwhich greatly simplify the code and grasped the usages quickly.
 2. [Photo filter](https://github.com/DingSoung/photo)  
-this app use the IOS8 build-in Filter,based on the development of others,however,considering of convenience, I transfer the filter functions into to a picker, hide upon image viewer,touch and swipe to apply filter real-time, which is user-friendly, and to easy. //突出调优，改进能力
+this app use the IOS8 build-in Filter,based on the development of others,however,considering of convenience, I transfer the filter functions into to a picker, hide upon image viewer,touch and swipe to apply filter real-time, which is user-friendly, and to easy. 
 3. [Embedded web Apps](https://github.com/DingSoung/webApp)  
-One product need develop more mobild clients,,IOS,Android,WP,and more if Pads include,while develop for each one is obviously unwise, we need a cross-platform tool,and usually web is a good choise, thus I start this project, help me to reuse web code such as HTML5 CSS to save developing time.//突出创新，对行业和技术的了解和洞察发展趋势的能力
+One product need develop more mobild clients,,IOS,Android,WP,and more if Pads include,while develop for each one is obviously unwise, we need a cross-platform tool,and usually web is a good choise, thus I start this project, help me to reuse web code such as HTML5 CSS to save developing time.
 4. [UI design](https://github.com/DingSoung/design)  
-this project is my sketch repository, which my copy painting and few self-design, inspired by mental design,Click the link above to watch.  //对设计和美感的追求
+this project is my sketch repository, which my copy painting and few self-design, inspired by mental design,Click the link above to watch.
 
 ####Education
 * B.S.Eng of Xiangnan University, Electronic information & science technology,2009 NCRE2 CET4 
