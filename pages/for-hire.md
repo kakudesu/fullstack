@@ -10,7 +10,7 @@ description: ""
 * Software Engineer at Shanghai China
 * B.S.Eng of Xiangnan University
 * Mobile:+86-17097762778
-* <DingSoung@gmail.com>
+* [DingSoung@gmail.com](mailto:DingSoung@gmail.com)
 * <https://github.com/DingSoung>
 
 Hi, I‘m a IOS software engineer,I am currently seeking more suitable careers, here is my basic information, if you would like to get touch with me,send an e-mail or call me directly. 
@@ -57,9 +57,9 @@ In 2010, I started a project. As team leader of 5 selected members, I design the
 
 * Broaden my eyesight,follow my heart, choose the best which is worth time I'm spending ,as my career
 
-*What's my advantages*  
+*What's my advantages?*  
 
-* Benefit form my course work and my past work experence about embedded system and firmware,I schievements distinctive advantage of **Debug and Improve**, especially for pursuit of performance as well as the beauty of Code.
+* Benefit form my course work and my past work experence about embedded system and firmware,I schievements distinctive advantage of **Debug and Improve**, especially for pursuit of **performance** as well as the **beauty of Code**.
 
 ---
 
