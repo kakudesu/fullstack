@@ -1,6 +1,7 @@
 ---
 layout: page
-title: ""
+title: "for hire"
 description: ""
 ---
 {% include JB/setup %}
+
