@@ -6,12 +6,12 @@ description: ""
 {% include JB/setup %}
 
 ####Brief
-* Ding Soung(¶¡ËÉ)/male/1990
+* Ding Soung(丁松)/male/1990
 * Software Engineer at Shanghai China
 * B.S.Eng of Xiangnan University
 * Mobile:+86-17097762778
-* [DingSoung@gmail.com](mailto:DingSoung@gmail.com)
-* [https://github.com/DingSoung](https://github.com/DingSoung)
+* <DingSoung@gmail.com>
+* <https://github.com/DingSoung>
 
 Hi, I¡®m a IOS software engineer,I am currently seeking more suitable careers, here is my basic information, if you would like to get touch with me,send an e-mail or call me directly. 
 
