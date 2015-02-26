@@ -36,33 +36,3 @@ this app use the IOS8 build-in Filter,based on the development of others,however
 One product need develop more mobild clients,,IOS,Android,WP,and more if Pads include,while develop for each one is obviously unwise, we need a cross-platform tool,and usually web is a good choise, thus I start this project, help me to reuse web code such as HTML5 CSS to save developing time.
 4. [UI design](https://github.com/DingSoung/design)  
 this project is my sketch repository, which my copy painting and few self-design, inspired by mental design,Click the link above to watch.
-
-####Education
-* B.S.Eng of Xiangnan University, Electronic information & science technology,2009 NCRE2 CET4 
-* Undergraduate Coursework:  
-Data structure, Digital signal processing, Signal and system, Embedded system, Digital communication principle
-* Research,Competition,Awards,Papers & Graduation Design:  
-In 2010, I started a project. As team leader of 5 selected members, I design the framework and detailed functions of each part. After realizing the basic feature,I improved the stability and efficiency, system memory and time are greatly saved. In 2011, we won the fund form schools, at the beginning of 2012 my papers about the project was published, at the same time, my graduation project was assessed A.  
-
----
-
-####Others
-* I once worked on embedded system, and turn to IOS App develop since Apple's 2014 WWDC when the swift language was published, In these months I start from using basic controls,network communications,data phrase,then learn to use libraries such as SwiftyJSON,Alamofire,also I practiced UI designing with sketch,now I had make several apps, and gained  my own experience, these increase self-confidence to join mobile and network developing. However ,as a new men, I know the lack of work experience, this is a unavoidable process,I must keep trying all my efforts to learn and design best apps, all I need is an opportunity, that's why I found you.
-
-*How about my work attitude,performance and ability?*  
-
-* As a developer obsessed with technology, I always deal with general affairs of my work with rigorous attitude,try my best to finish every project in time and without serious bugs, and it sincerely happy to saw my works being praised, and bring revenue.In the last year,my manager assessed my professional effectiveness and work efficiency 7 score witch means exceed goals,proactivity,time management and problem solving 8 score,almost far exceed goals. If you'r interesting the detail, you can also visit page <http://dingsoung.ml/pages/resume.html> about my past work experence.
-
-*Why turn to current industry?*  
-
-* Broaden my eyesight,follow my heart, choose the best which is worth time I'm spending ,as my career
-
-*What's my advantages?*  
-
-* Benefit form my course work and my past work experence about embedded system and firmware,I schievements distinctive advantage of **Debug and Improve**, especially for pursuit of **performance** as well as the **beauty of Code**.
-
----
-
-**welcome to visit my [Github Profile](https://github.com/DingSoung)*
-
-![github](https://raw.githubusercontent.com/DingSoung/dingsoung.github.com/master/attach/githubUrl.png)
