@@ -5,6 +5,18 @@ description: ""
 ---
 {% include JB/setup %}
 
+
+
+todo: 
+
+* 把工作经历加进来
+* 把硬件，嵌入式 firmware 还有数据处理，信号系统等的技能也添加进来，为物联网，医疗电子等行业作准备
+* 添加求职意向，说明需要智能硬件，医疗电子，物联网，等行业的IOS开发，工资12K＋
+* 精炼一下Other部分的描述，   简洁
+* 挑选个人项目作为作品展示
+
+
+
 ####Brief
 * Ding Soung(丁松)/male/1990
 * Software Engineer at Shanghai China
