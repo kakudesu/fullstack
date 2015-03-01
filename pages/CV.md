@@ -14,6 +14,7 @@ todo:
 * 对个人技能 评级，技能，语开发语言，工具 分开写
 * 尝试精炼一下工作经历
  -->
+ 
 ####Brief
 * Ding Soung(丁松)/male/1990
 * Ability to learn self-motivated and ambition
