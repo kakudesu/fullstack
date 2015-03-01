@@ -50,7 +50,7 @@ In 2010, I started a project about Embedded Linux. As team leader of 5 selected 
 
 ---
 
-####Personal Project & Technical summary
+####Personal Project
 
 * [Online player](https://github.com/DingSoung/music)  
 This is one of my typical swift language based IOS 8 app which contains UI ViewContraller, Auto Layout,data access, JSON phrase, and Interned request, related to application of kinds of framework such as  AVFoundation, SwiftyJSON, Alamofire etc. each functions has more friendly interface and independence.
@@ -63,6 +63,8 @@ This is one of my typical swift language based IOS 8 app which contains UI ViewC
 * [Sketch design](https://github.com/DingSoung/design)  
 This project is my sketch repository, which my copy painting and few self-design, inspired by mental design,Click the link above to watch.
 
+ <!-- add Technical summary -->
+ 
 ---
 
 ####Self-assessment
