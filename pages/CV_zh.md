@@ -17,7 +17,7 @@ todo:
  
 ####Brief
 * Ding Soung(丁松)/male/1990
-* Willing to learn,high－efficient and self-motivated
+* Ability to learn self-motivated and ambition
 * Software Engineer, 2.5 year work experience
 * B.S.Eng of Xiangnan University
 * Mobile:+86-17097762778
