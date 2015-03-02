@@ -1,8 +1,5 @@
----
 layout: page
 title: "CV"
-description: ""
----
 {% include JB/setup %}
 
 <!--
@@ -18,7 +15,7 @@ todo:
 ####Brief
 * Ding Soung(丁松)/male/1990
 * Ability to learn self-motivated and ambition
-* Software Engineer
+* Software Engineer, 2.5 year work experience
 * B.S.Eng of Xiangnan University
 * Mobile:+86-17097762778
 * <DingSoung@outlook.com>
@@ -28,16 +25,16 @@ Hi, I‘m a IOS software engineer,I am currently seeking more suitable careers, 
 
 ---
 
-####Work Experence
+####Work Experences & Main Projects
 
-######Software Engineer at Dediprog 2013.12 — Now
-* IC support: Write kinds of communication IO and protocols with assembly language, and use C language control process, FLASH,EEPROM and varieties of programmable MCU such as power control,touch screen, motors controller ware supported, as well as AVR, ARM7, cortex M MCU,theses amplified series helped to expand the customer source and get more orders.
-* Optimize burning method: adjust the timing to make it works faster and more stable, especially for OTP series chip with JTAG interface ,witch usually unstable and has complex protocol, by using IAP,ping-pong cache technology to improve performance close to theoretical value,speeded up to 2.5x than usual, fail rate controlled in 0.05%.
+######Software Engineer at Dediprog 2013.11 — Now
 * Upgrade Framework:Worked on new framework with 5 other RD,support more complex programmable areas and types of IC, promoted highest burning speed, programmer works offline, and reduced dependence on PC. Support the XML configuration option dialog IC support, this saves supporting time. The Firmware layer coordinate bus layer’s works, reserved memory for bus layer, make it possible to do data phrase, verification, comparison real-time and accurately.
+* Optimize burning method: adjust the timing to make it works faster and more stable, especially for OTP series chip with JTAG interface ,witch usually unstable and has complex protocol, by using IAP,ping-pong cache technology to improve performance close to theoretical value,speeded up to 2.5x than usual, fail rate controlled in 0.05%.
+* IC support: Write kinds of communication IO and protocols with assembly language, and use C language control process, FLASH,EEPROM and varieties of programmable MCU such as power control,touch screen, motors controller ware supported, as well as AVR, ARM7, cortex M MCU,theses amplified series helped to expand the customer source and get more orders.
 
-######Embeded Software Engineer at PointLine 2012.12 — 2013.12
-* Sample and analyze module of acquisition: Programming MCU with C language to drive peripherals.Instead of RTOS,I improved performance and stability by using designed state machine,witch greatly simplify system,saves more memory and time for data process.
+######Embeded Software Engineer at PointLine 2012.12 — 2013.11
 * Design Algorithm:Simulate via Matlab,by studying papers making experiments, a more suitable algorithm witch has optimization of sampling signal processing algorithm, adapt to the wider frequency and amplitude dynamic range was designed,this keep the calculation error in ppm, and final result reduce from the original 0.5% to 0.2%.
+* Sample and analyze module of acquisition: Programming MCU with C language to drive peripherals.Instead of RTOS,I improved performance and stability by using designed state machine,witch greatly simplify system,saves more memory and time for data process.
 
 ---
 
