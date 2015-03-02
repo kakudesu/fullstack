@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "CV"
+title: "简历"
 
 ---
 {% include JB/setup %}
