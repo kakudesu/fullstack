@@ -15,10 +15,10 @@ todo:
 * 尝试精炼一下工作经历
  -->
  
-####Brief
+####简要信息
 * 丁松/男/1990
 * 学习和钻研能力强，高效率，自我激励
-* 软件工程师，2.5工作经验
+* 软件工程师转IOS开发，2.5工作经验
 * 工程学理学士，本科，电子信息工程
 * 电话＋86-17097762778
 * <DingSoung@outlook.com>
@@ -35,9 +35,11 @@ Hi, I‘m a IOS software engineer,I am currently seeking more suitable careers, 
 ######软件工程师 @ 得镨电子科技(上海)有限公司 2013.11 — 现在
 * Upgrade Framework:Worked on new framework with 5 other RD,support more complex programmable areas and types of IC, promoted highest burning speed, programmer works offline, and reduced dependence on PC. Support the XML configuration option dialog IC support, this saves supporting time. The Firmware layer coordinate bus layer’s works, reserved memory for bus layer, make it possible to do data phrase, verification, comparison real-time and accurately.
 * Optimize burning method: adjust the timing to make it works faster and more stable, especially for OTP series chip with JTAG interface ,witch usually unstable and has complex protocol, by using IAP,ping-pong cache technology to improve performance close to theoretical value,speeded up to 2.5x than usual, fail rate controlled in 0.05%.
+<!-- JTAG 扫描链调试 ARM内核，   汇编 灵活运用，  使用汇编实现32位查表法CRC校验 -->
 * IC support: Write kinds of communication IO and protocols with assembly language, and use C language control process, FLASH,EEPROM and varieties of programmable MCU such as power control,touch screen, motors controller ware supported, as well as AVR, ARM7, cortex M MCU,theses amplified series helped to expand the customer source and get more orders.
 
 ######软件工程师 @ 点线科技(武汉)有限公司 2012.12 — 2013.11
+<!--准同步采用算法 适应宽频带  统一的计算时间，以空间换计算误差 -->
 * Design Algorithm:Simulate via Matlab,by studying papers making experiments, a more suitable algorithm witch has optimization of sampling signal processing algorithm, adapt to the wider frequency and amplitude dynamic range was designed,this keep the calculation error in ppm, and final result reduce from the original 0.5% to 0.2%.
 * Sample and analyze module of acquisition: Programming MCU with C language to drive peripherals.Instead of RTOS,I improved performance and stability by using designed state machine,witch greatly simplify system,saves more memory and time for data process.
 
@@ -84,8 +86,8 @@ Sketch Design  熟悉
 Embedded  掌握
 Web 
 -->
-* IOS, Firmware,Embedded ARM, Linux;
-* Swift, C/C++,Assembly, Lua, Objective-C;
+* IOS, Firmware, Embedded ARM, Linux;
+* Swift, C/C++, 汇编, Lua, Objective-C;
 * Git, JSON, SQL, Markdown, Makefile, XML, HTML, CSS;
 * Xcode, Sketch, Visual Studio, IAR, Matlab;
 
