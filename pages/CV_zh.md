@@ -34,8 +34,8 @@ Hi, I‘m a IOS software engineer,I am currently seeking more suitable careers, 
 
 #####软件工程师 @ 得镨电子科技(上海)有限公司 2013.11 — 现在
 * 升级新架构:与其他5位RD一起协作。在硬件不变的情况下，相比老架构，新架构最大的特点是上位机层支持更复杂的可编程IC，Frimware层支持了脱机工作，底层最大数据收发速率提升。 and reduced dependence on PC. Support the XML configuration option dialog IC support, this saves supporting time. The Firmware layer coordinate bus layer’s works, reserved memory for bus layer, make it possible to do data phrase, verification, comparison real-time and accurately.
-* 支援IC: 设计各种通讯接口和通讯协议，包括IIC，SPI，UART，ISSP，SWD，JTAG以及其他非标准接口，Write kinds of communication IO and protocols with assembly language, and use C language control process, FLASH,EEPROM and varieties of programmable MCU such as power control,touch screen, motors controller ware supported, as well as AVR, ARM7, cortex M MCU,theses amplified series helped to expand the customer source and get more orders.
-* 其他做过的事情:
+* 支援IC: 设计各种通讯接口和通讯协议，包括IIC，SPI，UART，ISSP，SWD，JTAG以及其他非标准接口，Write kinds of communication IO and protocols with assembly language, and use C language control process, FLASH,EEPROM and varieties of programmable MCU such as power control,touch screen, motors controller ware supported, as well as AVR, ARM7, cortex M MCU,theses amplified series helped to expand the customer source and get more orders. 除了控制好时序，更多的是改进烧录方法，以达到足够高的稳定性和速度，例如一款JTAG OTP芯片IRMCK3xx不良率控制在0.05%以内，远低于生产要求，AT91SAM7xxx使用IAP方式速度提升约2.5倍。
+* 做过有意思的事情:
   * 使用汇编指令，编写查表法CRC，对收发数据进行同步校验；
   * 使用汇编指令管理内存和缓冲数据；
   * 模拟JTAG接口，编写扫描链，对ARM7内核进行调试，访问内部寄存器，内存和Flash；
@@ -52,12 +52,10 @@ Hi, I‘m a IOS software engineer,I am currently seeking more suitable careers, 
 ---
 
 ####教育背景
-* B.S.Eng of Xiangnan University, Electronic information & science technology,2009 NCRE2 CET4 
-* Undergraduate Coursework:  
-Data structure, Digital signal processing, Signal and system, Embedded system, Digital communication principle
-* Research,Competition,Awards,Papers & Graduation Design:  
-In 2010, I started a project about Embedded Linux. As team leader of 5 selected members, I design the [kernel modules](https://github.com/DingSoung/linux-3.0.1/tree/master/drivers/char) and detailed functions of each part. After realizing the basic feature,I improved the stability and efficiency, system memory and time are greatly saved. In 2011, we won the fund form schools, at the beginning of 2012 my papers about the project was published, at the same time, my graduation project was assessed A.  
-
+* 工程学理学士，本科，电子信息与科学技术，一次性通过NCRE2，CET4 
+* 主要专业课程: 数据结构, 数字信号处理，信号与系统，嵌入式系统，数字通信原理等
+* 专研，赛事，奖项，论文和毕业设计：  
+2010年，我与导师一起申请到实验室，并与另外4人组成智能车试验小组，作为组长，我设计了[Linux驱动模块](https://github.com/DingSoung/linux-3.0.1/tree/master/drivers/char)和主要的系统程序,实现基本功能，并不断调试和调优。2011年,我们获得了学校的资助，2012年，关于该项目的论文被采纳，紧接着该项目衍生的个人毕业设计和论文被评优。
 ---
 
 ####个人项目
@@ -78,11 +76,10 @@ This project is my sketch repository, which my copy painting and few self-design
 ---
 
 ####自我评估
-* Focus on Swift IOS APP，Sketch UI designing
-* Keen to new and trending technologies，Mobile，Network，Design etc, active at Github,V2EX,Solidot
-* Experiences with Linux Firmware and hardware programming
-* Favor of Google,Linux,Mobile,Science technology,Hardware
-* Ability to learn，self-motivated and ambition
+* 目前主要专注IOS APP的开发
+* 热爱新潮技术，手机，互联网，设计，活跃于V2EX，Github，Google＋
+* 学习和钻研，自我激励，有志向
+* 丰富的Linux，Firmware开发经验和信号数据处理的理论基础，是医疗电子、智能硬件等行业的菜
 
 ####擅长领域，编程语言，技能，开发工具
 <!--
@@ -108,11 +105,11 @@ Web
 
 *职业选择*  
 
-* Broaden my eyesight,follow my heart, choose the best which is worth time I'm spending ,as my career
+* 开阔眼界，亲身实践，把时间花在自己最热爱和痴迷的领域
 
 *我的优势*  
 
-* Benefit form my course work and my past work experence about embedded system and firmware,I schievements distinctive advantage of **Debug and Improve**, especially for pursuit of **performance** as well as the **beauty of Code**.
+* 得益于我的专业和工作经历，相比其他IOS开发者，我具备更对的嵌入式，Linux和硬件经验，这在物联网，智能硬件，穿戴式设备，医疗电子等领域占有优势，不仅如此，我还获得了方方面面的*调试和改进*能力，追求代码美感，不断学习和自我提升的习惯，相信这些在今后的工作中带来更多的便利和发展潜力
 
 ---
 
