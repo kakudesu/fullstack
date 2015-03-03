@@ -28,7 +28,7 @@ Hi, I‘m a IOS software engineer,I am currently seeking more suitable careers, 
 
 ---
 
-####Work Experences & Main Projects
+####Work Experiences & Main Projects
 
 #####Software Engineer at Dediprog 2013.11 — Now
 * Upgrade Framework:Worked on new framework with 5 other RD,support more complex programmable areas and types of IC, promoted highest burning speed, programmer works offline, and reduced dependence on PC. Support the XML configuration option dialog IC support, this saves supporting time. The Firmware layer coordinate bus layer’s works, reserved memory for bus layer, make it possible to do data phrase, verification, comparison real-time and accurately.

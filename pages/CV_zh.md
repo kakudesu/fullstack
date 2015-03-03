@@ -17,7 +17,7 @@ todo:
  
 ####简要信息
 * 丁松/男/1990
-* 学习和钻研能力强，高效率，自我激励
+* 热爱学习和钻研，高效率，自我激励
 * 软件工程师转IOS开发，2.5工作经验
 * 工程学理学士，本科，电子信息工程
 * 电话＋86-17097762778
@@ -33,15 +33,21 @@ Hi, I‘m a IOS software engineer,I am currently seeking more suitable careers, 
 ####工作经历与主意项目经验
 
 #####软件工程师 @ 得镨电子科技(上海)有限公司 2013.11 — 现在
-* Upgrade Framework:Worked on new framework with 5 other RD,support more complex programmable areas and types of IC, promoted highest burning speed, programmer works offline, and reduced dependence on PC. Support the XML configuration option dialog IC support, this saves supporting time. The Firmware layer coordinate bus layer’s works, reserved memory for bus layer, make it possible to do data phrase, verification, comparison real-time and accurately.
-* Optimize burning method: adjust the timing to make it works faster and more stable, especially for OTP series chip with JTAG interface ,witch usually unstable and has complex protocol, by using IAP,ping-pong cache technology to improve performance close to theoretical value,speeded up to 2.5x than usual, fail rate controlled in 0.05%.
-<!-- JTAG 扫描链调试 ARM内核，   汇编 灵活运用，  使用汇编实现32位查表法CRC校验 -->
-* IC support: Write kinds of communication IO and protocols with assembly language, and use C language control process, FLASH,EEPROM and varieties of programmable MCU such as power control,touch screen, motors controller ware supported, as well as AVR, ARM7, cortex M MCU,theses amplified series helped to expand the customer source and get more orders.
+* 升级新架构:与其他5位RD一起协作。在硬件不变的情况下，相比老架构，新架构最大的特点是上位机层支持更复杂的可编程IC，Frimware层支持了脱机工作，底层最大数据收发速率提升。 and reduced dependence on PC. Support the XML configuration option dialog IC support, this saves supporting time. The Firmware layer coordinate bus layer’s works, reserved memory for bus layer, make it possible to do data phrase, verification, comparison real-time and accurately.
+* 支援IC: 设计各种通讯接口和通讯协议，包括IIC，SPI，UART，ISSP，SWD，JTAG以及其他非标准接口，Write kinds of communication IO and protocols with assembly language, and use C language control process, FLASH,EEPROM and varieties of programmable MCU such as power control,touch screen, motors controller ware supported, as well as AVR, ARM7, cortex M MCU,theses amplified series helped to expand the customer source and get more orders.
+* 其他做过的事情:
+  * 使用汇编指令，编写查表法CRC，对收发数据进行同步校验；
+  * 使用汇编指令管理内存和缓冲数据；
+  * 模拟JTAG接口，编写扫描链，对ARM7内核进行调试，访问内部寄存器，内存和Flash；
+  * 使用XML快速配置Dilog;
+* adjust the timing to make it works faster and more stable, especially for OTP series chip with JTAG interface ,witch usually unstable and has complex protocol, by using IAP,ping-pong cache technology to improve performance close to theoretical value,speeded up to 2.5x than usual, fail rate controlled in 0.05%.
+<!-* JTAG 扫描链调试 ARM内核，   汇编 灵活运用，  使用汇编实现32位查表法CRC校验 -->
+
 
 #####软件工程师 @ 点线科技(武汉)有限公司 2012.12 — 2013.11
 <!--准同步采用算法 适应宽频带  统一的计算时间，以空间换计算误差 -->
-* Design Algorithm:Simulate via Matlab,by studying papers making experiments, a more suitable algorithm witch has optimization of sampling signal processing algorithm, adapt to the wider frequency and amplitude dynamic range was designed,this keep the calculation error in ppm, and final result reduce from the original 0.5% to 0.2%.
-* Sample and analyze module of acquisition: Programming MCU with C language to drive peripherals.Instead of RTOS,I improved performance and stability by using designed state machine,witch greatly simplify system,saves more memory and time for data process.
+* 设计算法：准同步采样算法，适应宽频带的采样信号，使得频率一定范围内变化时，计算误差仍然很小，该算法将原设计的误差从0.5%降到0.2%，达到国家0.2S三相智能电表要求. 
+* 设计电信号采用和分析模块： 负责编写模块的采用、显示、时钟、通讯、存储和控制等驱动程序；使用状态机的思想快速切换任务，有效的控制MCU时间分配，降低功耗；结合DMA中断和双缓冲实现了AD的连续采样的同时，将绝大部分时间用于数据运算和通讯等任务，达到了一般需要更高性能的MCU结合RTOS才能实现的效果；
 
 ---
 
@@ -59,15 +65,15 @@ In 2010, I started a project about Embedded Linux. As team leader of 5 selected 
 * [Online player](https://github.com/DingSoung/music)  
 This is one of my typical swift language based IOS 8 app which contains UI ViewContraller, Auto Layout,data access, JSON phrase, and Interned request, related to application of kinds of framework such as  AVFoundation, SwiftyJSON, Alamofire etc. each functions has more friendly interface and independence.
 * [data-graph](https://github.com/DingSoung/data-graph)
-<!-- add detail -->
+<!-* add detail -->
 
 * [BLE framework](https://github.com/DingSoung/data-graph)
-<!-- add readme -->
+<!-* add readme -->
 
 * [Sketch design](https://github.com/DingSoung/design)  
 This project is my sketch repository, which my copy painting and few self-design, inspired by mental design,Click the link above to watch.
 
- <!-- add Technical summary -->
+ <!-* add Technical summary -->
  
 ---
 
@@ -79,7 +85,7 @@ This project is my sketch repository, which my copy painting and few self-design
 * Ability to learn，self-motivated and ambition
 
 ####擅长领域，编程语言，技能，开发工具
-<!-- 
+<!--
 IOS APP  掌握
 Frimeware  精通
 Sketch Design  熟悉
