@@ -30,7 +30,7 @@ Hi, I‘m a IOS software engineer,I am currently seeking more suitable careers, 
 
 ---
 
-####工作经历与主意项目经验
+####工作经历与主要项目经验
 
 #####软件工程师 @ 得镨电子科技(上海)有限公司 2013.11 — 现在
 * 升级新架构:与其他5位RD一起协作。在硬件不变的情况下，相比老架构，新架构最大的特点是上位机层支持更复杂的可编程IC，Frimware层支持了脱机工作，底层最大数据收发速率提升。 and reduced dependence on PC. Support the XML configuration option dialog IC support, this saves supporting time. The Firmware layer coordinate bus layer’s works, reserved memory for bus layer, make it possible to do data phrase, verification, comparison real-time and accurately.
@@ -56,6 +56,7 @@ Hi, I‘m a IOS software engineer,I am currently seeking more suitable careers, 
 * 主要专业课程: 数据结构, 数字信号处理，信号与系统，嵌入式系统，数字通信原理等
 * 专研，赛事，奖项，论文和毕业设计：  
 2010年，我与导师一起申请到实验室，并与另外4人组成智能车试验小组，作为组长，我设计了[Linux驱动模块](https://github.com/DingSoung/linux-3.0.1/tree/master/drivers/char)和主要的系统程序,实现基本功能，并不断调试和调优。2011年,我们获得了学校的资助，2012年，关于该项目的论文被采纳，紧接着该项目衍生的个人毕业设计和论文被评优。
+
 ---
 
 ####个人项目
