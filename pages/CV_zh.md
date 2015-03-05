@@ -7,12 +7,33 @@ title: "简历"
 
 <!--
 todo: 
-* 把硬件，嵌入式 firmware 还有数据处理，信号系统等的技能也添加进来，为物联网，医疗电子等行业作准备
-* 添加求职意向，说明需要game, 智能硬件，医疗电子，物联网，等行业的IOS开发，工资12K＋
-* 精炼一下Other部分的描述，   简洁
-* 挑选个人项目作为作品展示
-* 对个人技能 评级，技能，语开发语言，工具 分开写
-* 尝试精炼一下工作经历
+不用加太多的术语，重点是demo、想法、解决问题的能力
+
+http://ourcoders.com/
+
+http://www.ihouzi.com/iOS.html
+
+1、	熟练使用XCode开发工具；
+2、	熟练掌握Obective-C编程语言；
+3、	熟悉使用第三方如：AFNetworking，SDWebImage,DDMenu等；
+4、	熟悉iOS常用框架及MVC设计模式；
+5、	熟悉Coredata，数据库；
+6、	熟悉使用CocoaPods，SourceTree；
+7、	熟悉微博SDK使用；
+8、	熟悉app上线流程；
+9、	熟悉NSTread，NSOperationQueue，GCD；
+10、	了解xml，json；
+11、	了解TCP/IP，HTTP，Socket网络协议；
+12、 熟练使用photoshop
+
+IOS APP  掌握
+Frimeware  精通
+Sketch Design  熟悉
+Embedded  掌握
+Web 
+
+https://www.v2ex.com/t/149934#reply21
+
  -->
  
 ###简要信息
@@ -29,21 +50,13 @@ Hi, I'm a IOS software engineer,I am currently seeking more suitable careers, he
 -->
 
 ###擅长领域，编程语言，技能，开发工具
-<!--
-IOS APP  掌握
-Frimeware  精通
-Sketch Design  熟悉
-Embedded  掌握
-Web 
--->
 * IOS, Firmware, Embedded ARM, Linux;
 * Swift, C/C++, 汇编, Lua, Objective-C;
 * Git, JSON, SQL, Markdown, Makefile, XML, HTML, CSS;
 * Xcode, Sketch, Visual Studio, IAR, Matlab;
 
 ###目标职位  
-IOS应用和手机游戏开发，一周内到岗，薪水面议。
-
+初级IOS应用和手机游戏开发，一周内到岗，薪水面议。
 ---
 
 ###个人项目  
@@ -107,6 +120,7 @@ IOS应用和手机游戏开发，一周内到岗，薪水面议。
 
 ---
 
+[下载PDF版本简历](https://raw.githubusercontent.com/DingSoung/dingsoung.github.com/master/attach/CV_zh.pdf)  
 *[Github Profile](https://github.com/DingSoung)*
 
 ![github](https://raw.githubusercontent.com/DingSoung/dingsoung.github.com/master/attach/githubUrl.png)
