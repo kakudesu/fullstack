@@ -57,6 +57,7 @@ Hi, I'm a IOS software engineer,I am currently seeking more suitable careers, he
 
 ###目标职位  
 初级IOS应用和手机游戏开发，一周内到岗，薪水面议。
+
 ---
 
 ###个人项目  
