@@ -61,10 +61,10 @@ Hi, I'm a IOS software engineer,I am currently seeking more suitable careers, he
 ---
 
 ###个人项目  
-* [nlineMusicPlayer](https://github.com/DingSoung/music)  
+* [onlineMusicPlayer](https://github.com/DingSoung/music)  
 这是我的一个典型IOS8 APP之一，它涉及到UIKit、Auto Layout、文件本地存取、JSON解析、网络访问等，使用AVFoundation, SwiftyJSON, Alamofire等Framework,各个功能友好衔接。此外还有其他若干APP，如[Photo](https://github.com/DingSoung/photo),[Web APP](https://github.com/DingSoung/webApp),[Login & Side Menu](https://github.com/DingSoung/ThumbsOnTheRun),[Note](https://github.com/DingSoung/noteBook)等
 
-* [BLE framework](https://github.com/DingSoung/data-graph)  
+* [BLE framework](https://github.com/DingSoung/BLE)  
 目前还在进行中的蓝牙库，主要针对与IOS挂钩的穿戴式设备、智能家居、物联网、机器人开发。
 
 * [data-graph](https://github.com/DingSoung/data-graph)  
@@ -75,10 +75,10 @@ Hi, I'm a IOS software engineer,I am currently seeking more suitable careers, he
 
 ###工作经历与主要项目经验
 
-####软件工程师 @ 得镨电子科技(上海)有限公司 2013.11 — 现在
+####软件工程师 @ 锝镨电子科技(上海)有限公司 2013.11 — 现在
 * 升级新架构:与其他5位RD一起协作。在硬件不变的情况下，相比老架构，新架构最大的特点是上位机层支持更复杂的可编程IC，Frimware层支持了脱机工作，底层最大数据收发速率提升；其中，我所负责的底层烧录协议和Firmware流程控制部分在烧录速度和稳定性方面起到了重要作用。
 
-* 支援IC: 设计各种通讯接口和通讯协议，包括IIC，SPI，UART，ISSP，SWD，JTAG以及其他非标准接口，包括EEPROM、FLSH、OTP、MTP等类型的存储芯片、各种MCU、及其他可编程IC; 这些工作不仅要求控制好时序更多的是改进烧录方法，以达到足够高的稳定性和速度；其中对稳定性要求最高的OTP芯片之一IRMCK3xx不良率控制在0.05%以内，远低于生产要求，另一颗典型烧录流程极其为复杂，需要通过JTAG深入调试ARM内核AT91SAM7xxx，经过研究，最终使用IAP方法烧录，相比老架构的速度提升约2.5倍。
+* 支援IC: 设计各种通讯接口和通讯协议，如IIC，SPI，UART，JTAG以及其他非标准接口，涉及到EEPROM、FLSH、OTP、MTP等类型的存储芯片、各种MCU、及其他可编程IC; 这些工作不仅要求控制好时序更多的是改进烧录方法，以达到足够高的稳定性和速度；其中对稳定性要求最高的OTP芯片之一IRMCK3xx不良率控制在0.05%以内，远低于生产要求，另一颗典型烧录流程极其为复杂，需要通过JTAG深入调试ARM内核AT91SAM7xxx，经过研究，最终使用IAP方法烧录，相比老架构的速度提升约2.5倍。
 
 * 工作中做过有意思的事情:
   * 使用汇编指令，[编写查表法CRC](https://github.com/DingSoung/data-graph/tree/master/TransmissionEncryption/crc)，对收发数据进行同步校验；
@@ -86,7 +86,7 @@ Hi, I'm a IOS software engineer,I am currently seeking more suitable careers, he
   * 模拟JTAG接口，编写扫描链，对ARM7内核进行调试，访问内部寄存器，内存和Flash；
   * 使用XML快速配置Dialog;
 
-####软件工程师 @ 点线科技(武汉)有限公司 2012.12 — 2013.11
+####嵌入式软件工程师 @ 点线科技(武汉)有限公司 2012.12 — 2013.11
 <!--准同步采用算法 适应宽频带  统一的计算时间，以空间换计算误差 -->
 
 * [设计算法](https://github.com/DingSoung/data-graph/tree/master/DiscreteDataAnalysis)：准同步采样算法，适应宽频带的采样信号，使得频率一定范围内变化时，计算误差仍然很小，该算法将原设计的误差从0.5%降到0.2%，达到国家0.2S三相智能电表要求。
