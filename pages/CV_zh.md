@@ -61,8 +61,8 @@ Hi, I‘m a IOS software engineer,I am currently seeking more suitable careers, 
 
 ####个人项目
 
-* [Online player](https://github.com/DingSoung/music)  
-This is one of my typical swift language based IOS 8 app which contains UI ViewContraller, Auto Layout,data access, JSON phrase, and Interned request, related to application of kinds of framework such as  AVFoundation, SwiftyJSON, Alamofire etc. each functions has more friendly interface and independence.
+* [](https://github.com/DingSoung/music)  
+这是我的一个典型IOS8 APP之一，它涉及到UIKit、Auto Layout、文件本地存取、JSON解析、网络访问等，使用AVFoundation, SwiftyJSON, Alamofire等Framework,各个功能友好衔接，相互独立。
 * [data-graph](https://github.com/DingSoung/data-graph)
 <!-* add detail -->
 
@@ -78,7 +78,7 @@ This project is my sketch repository, which my copy painting and few self-design
 
 ####自我评估
 * 目前主要专注IOS APP的开发
-* 热爱新潮技术，手机，互联网，设计，活跃于V2EX，Github，Google＋
+* 热爱新潮技术，手机，互联网，设计，活跃于V2EX，Github，Google
 * 学习和钻研，自我激励，有志向
 * 丰富的Linux，Firmware开发经验和信号数据处理的理论基础，是医疗电子、智能硬件等行业的菜
 
@@ -98,11 +98,11 @@ Web
 ---
 
 ####其他
-* I once worked on embedded system, and turn to IOS App develop since Apple's 2014 WWDC when the swift language was published, In these months I start from using basic controls,network communications,data phrase,then learn to use libraries such as SwiftyJSON,Alamofire,also I practiced UI designing with sketch,now I had make several apps, and gained  my own experience, these increase self-confidence to join mobile and network developing. However ,as a new men, I know the lack of work experience, this is a unavoidable process,I must keep trying all my efforts to learn and design best apps, all I need is an opportunity, that's why I found you.
+* 我现自苹果公司2014年WWDC开始正式转向iOS开发，在这几个月里，得益于以往的编程基础，我很快的掌握Swift语言，和常用的控件、Framework的使用，并在Github上积极参与开源项目，向资深开发者学习，同时通过自己动手开发应用程序获得经验，这些增加强了我加入移动开发行业的自信心。然而，作为一个人，我知道我仍然缺乏足够经验，这是一个不可避免的过程，我会继续努力学习，设计最佳的应用程序，我所需要的是一个机会，这就是为什么我找到了你。
 
 *工作态度，效率，能力*  
 
-* As a developer obsessed with technology, I always deal with general affairs of my work with rigorous attitude,try my best to finish every project in time and without serious bugs, and it sincerely happy to saw my works being praised, and bring revenue.In the last year,my manager assessed my professional effectiveness and work efficiency 7 score witch means exceed goals,proactivity,time management and problem solving 8 score,almost far exceed goals. If you'r interesting the detail, you can also visit page <http://dingsoung.ml/pages/resume.html> about my past work experence.
+* 作为专注与于技术的开发者，我总是以严谨的态度对待工作事务，尽我所能按时无差错地每一个项目，并且很高兴看到自己的作品受到客户的青睐。在过去的一年，我的经理评估我的专业效能和工作效率7分，意味着超越目标，积极性，时间管理和解决问题高达的8分。
 
 *职业选择*  
 
