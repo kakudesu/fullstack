@@ -8,7 +8,7 @@ title: "简历"
 <!--
 todo: 
 * 把硬件，嵌入式 firmware 还有数据处理，信号系统等的技能也添加进来，为物联网，医疗电子等行业作准备
-* 添加求职意向，说明需要智能硬件，医疗电子，物联网，等行业的IOS开发，工资12K＋
+* 添加求职意向，说明需要game, 智能硬件，医疗电子，物联网，等行业的IOS开发，工资12K＋
 * 精炼一下Other部分的描述，   简洁
 * 挑选个人项目作为作品展示
 * 对个人技能 评级，技能，语开发语言，工具 分开写
@@ -25,7 +25,7 @@ todo:
 * <https://github.com/DingSoung>
 
 <!--
-Hi, I‘m a IOS software engineer,I am currently seeking more suitable careers, here is my basic information, if you would like to get touch with me,send an e-mail or call me directly. 
+Hi, I'm a IOS software engineer,I am currently seeking more suitable careers, here is my basic information, if you would like to get touch with me,send an e-mail or call me directly. 
 -->
 
 ---
@@ -36,17 +36,14 @@ Hi, I‘m a IOS software engineer,I am currently seeking more suitable careers, 
 * 升级新架构:与其他5位RD一起协作。在硬件不变的情况下，相比老架构，新架构最大的特点是上位机层支持更复杂的可编程IC，Frimware层支持了脱机工作，底层最大数据收发速率提升。 and reduced dependence on PC. Support the XML configuration option dialog IC support, this saves supporting time. The Firmware layer coordinate bus layer’s works, reserved memory for bus layer, make it possible to do data phrase, verification, comparison real-time and accurately.
 * 支援IC: 设计各种通讯接口和通讯协议，包括IIC，SPI，UART，ISSP，SWD，JTAG以及其他非标准接口，Write kinds of communication IO and protocols with assembly language, and use C language control process, FLASH,EEPROM and varieties of programmable MCU such as power control,touch screen, motors controller ware supported, as well as AVR, ARM7, cortex M MCU,theses amplified series helped to expand the customer source and get more orders. 除了控制好时序，更多的是改进烧录方法，以达到足够高的稳定性和速度，例如一款JTAG OTP芯片IRMCK3xx不良率控制在0.05%以内，远低于生产要求，AT91SAM7xxx使用IAP方式速度提升约2.5倍。
 * 做过有意思的事情:
-  * 使用汇编指令，编写查表法CRC，对收发数据进行同步校验；
+  * 使用汇编指令，[编写查表法CRC](https://github.com/DingSoung/data-graph/tree/master/TransmissionEncryption/crc)，对收发数据进行同步校验；
   * 使用汇编指令管理内存和缓冲数据；
   * 模拟JTAG接口，编写扫描链，对ARM7内核进行调试，访问内部寄存器，内存和Flash；
-  * 使用XML快速配置Dilog;
-* adjust the timing to make it works faster and more stable, especially for OTP series chip with JTAG interface ,witch usually unstable and has complex protocol, by using IAP,ping-pong cache technology to improve performance close to theoretical value,speeded up to 2.5x than usual, fail rate controlled in 0.05%.
-<!-* JTAG 扫描链调试 ARM内核，   汇编 灵活运用，  使用汇编实现32位查表法CRC校验 -->
-
+  * 使用XML快速配置Dialog;
 
 #####软件工程师 @ 点线科技(武汉)有限公司 2012.12 — 2013.11
 <!--准同步采用算法 适应宽频带  统一的计算时间，以空间换计算误差 -->
-* 设计算法：准同步采样算法，适应宽频带的采样信号，使得频率一定范围内变化时，计算误差仍然很小，该算法将原设计的误差从0.5%降到0.2%，达到国家0.2S三相智能电表要求. 
+* [设计算法](https://github.com/DingSoung/data-graph/tree/master/DiscreteDataAnalysis)：准同步采样算法，适应宽频带的采样信号，使得频率一定范围内变化时，计算误差仍然很小，该算法将原设计的误差从0.5%降到0.2%，达到国家0.2S三相智能电表要求. 
 * 设计电信号采用和分析模块： 负责编写模块的采用、显示、时钟、通讯、存储和控制等驱动程序；使用状态机的思想快速切换任务，有效的控制MCU时间分配，降低功耗；结合DMA中断和双缓冲实现了AD的连续采样的同时，将绝大部分时间用于数据运算和通讯等任务，达到了一般需要更高性能的MCU结合RTOS才能实现的效果；
 
 ---
@@ -61,18 +58,18 @@ Hi, I‘m a IOS software engineer,I am currently seeking more suitable careers, 
 
 ####个人项目
 
-* [](https://github.com/DingSoung/music)  
+* [网络播放器](https://github.com/DingSoung/music)  
 这是我的一个典型IOS8 APP之一，它涉及到UIKit、Auto Layout、文件本地存取、JSON解析、网络访问等，使用AVFoundation, SwiftyJSON, Alamofire等Framework,各个功能友好衔接，相互独立。
-* [data-graph](https://github.com/DingSoung/data-graph)
-<!-* add detail -->
+* [BLE framework](https://github.com/DingSoung/data-graph)  
+目前还在进行中的蓝牙库，主要针对与IOS挂钩的穿戴式设备、智能家居、物联网、机器人开发。
 
-* [BLE framework](https://github.com/DingSoung/data-graph)
-<!-* add readme -->
+* [data-graph](https://github.com/DingSoung/data-graph)  
+<!-- add detail -->
 
 * [Sketch design](https://github.com/DingSoung/design)  
 This project is my sketch repository, which my copy painting and few self-design, inspired by mental design,Click the link above to watch.
 
- <!-* add Technical summary -->
+ <!-- add Technical summary -->
  
 ---
 
@@ -98,11 +95,11 @@ Web
 ---
 
 ####其他
-* 我现自苹果公司2014年WWDC开始正式转向iOS开发，在这几个月里，得益于以往的编程基础，我很快的掌握Swift语言，和常用的控件、Framework的使用，并在Github上积极参与开源项目，向资深开发者学习，同时通过自己动手开发应用程序获得经验，这些增加强了我加入移动开发行业的自信心。然而，作为一个人，我知道我仍然缺乏足够经验，这是一个不可避免的过程，我会继续努力学习，设计最佳的应用程序，我所需要的是一个机会，这就是为什么我找到了你。
+* 我现自苹果公司2014年WWDC开始正式转向iOS开发，在这几个月里，得益于以往的编程基础，我很快的掌握Swift语言、常用控件、Framework的使用，并在Github上积极参与开源项目，向资深开发者学习，同时通过自己动手开发应用程序获得经验，这些增加强了我加入移动开发行业的自信心。然而，作为一个人，我知道我仍然缺乏足够经验，这是一个不可避免的过程，我会继续努力学习，设计最佳的应用程序，我所需要的是一个机会，这就是为什么我找到了你。
 
 *工作态度，效率，能力*  
 
-* 作为专注与于技术的开发者，我总是以严谨的态度对待工作事务，尽我所能按时无差错地每一个项目，并且很高兴看到自己的作品受到客户的青睐。在过去的一年，我的经理评估我的专业效能和工作效率7分，意味着超越目标，积极性，时间管理和解决问题高达的8分。
+* 作为专注与于技术的开发者，我总是以严谨的态度对待工作事务，尽我所能按时无差错地完成每一个项目，并且很高兴看到自己的作品受到客户的青睐。在过去的一年，我的经理评估我的专业效能和工作效率7分，意味着超越目标，积极性，时间管理和解决问题高达的8分。
 
 *职业选择*  
 
