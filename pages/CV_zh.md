@@ -39,7 +39,7 @@ https://www.v2ex.com/t/149934#reply21
 ###简要信息
 * 丁松/男/1990
 * 热爱学习和钻研，高效率，自我激励
-* 软件工程师转IOS开发，2.5工作经验
+* 软件工程师，2.5工作经验，含1年个人IOS开发经验
 * 工程学理学士，本科，电子信息工程
 * 电话＋86-17097762778
 * <DingSoung@outlook.com>
@@ -50,10 +50,11 @@ Hi, I'm a IOS software engineer,I am currently seeking more suitable careers, he
 -->
 
 ###擅长领域，编程语言，技能，开发工具
-* IOS, Firmware, Embedded ARM, Linux;
-* Swift, C/C++, 汇编, Lua, Objective-C;
-* Git, JSON, SQL, Markdown, Makefile, XML, HTML, CSS;
-* Xcode, Sketch, Visual Studio, IAR, Matlab;
+* 技术：IOS, Linux, Firmware, Embedded;
+* 语言：Swift, C/C++, 汇编, Objective-C;
+* 工具：Git, VIM, JSON, SQL, Markdown, Makefile；
+* IDE：Xcode , Visual Studio, IAR, Matlab;  
+其他涉猎：Lua, Sketch, XML, HTML, CSS;
 
 ###目标职位  
 初级IOS应用和手机游戏开发，一周内到岗，薪水面议。
@@ -61,6 +62,7 @@ Hi, I'm a IOS software engineer,I am currently seeking more suitable careers, he
 ---
 
 ###个人项目  
+####IOS app 2014~现在
 * [onlineMusicPlayer](https://github.com/DingSoung/music)  
 这是我的一个典型IOS8 APP之一，它涉及到UIKit、Auto Layout、文件本地存取、JSON解析、网络访问等，使用AVFoundation, SwiftyJSON, Alamofire等Framework,各个功能友好衔接。此外还有其他若干APP，如[Photo](https://github.com/DingSoung/photo),[Web APP](https://github.com/DingSoung/webApp),[Login & Side Menu](https://github.com/DingSoung/ThumbsOnTheRun),[Note](https://github.com/DingSoung/noteBook)等
 
@@ -83,7 +85,7 @@ Hi, I'm a IOS software engineer,I am currently seeking more suitable careers, he
 * 工作中做过有意思的事情:
   * 使用汇编指令，[编写查表法CRC](https://github.com/DingSoung/data-graph/tree/master/TransmissionEncryption/crc)，对收发数据进行同步校验；
   * 使用汇编指令管理内存和缓冲数据；
-  * 模拟JTAG接口，编写扫描链，对ARM7内核进行调试，访问内部寄存器，内存和Flash；
+  * 模拟JTAG接口，编写扫描链，对ARM内核进行调试，访问内部寄存器，内存和Flash；
   * 使用XML快速配置Dialog;
 
 ####嵌入式软件工程师 @ 点线科技(武汉)有限公司 2012.12 — 2013.11
@@ -114,7 +116,7 @@ Hi, I'm a IOS software engineer,I am currently seeking more suitable careers, he
 * 作为专注与于技术的开发者，我总是以严谨的态度对待工作事务，尽我所能按时无差错地完成每一个项目，并且很高兴看到自己的作品受到客户的青睐。在过去的一年，我的经理评估我的专业效能和工作效率7分，意味着超越目标，积极性，时间管理和解决问题高达的8分。
 
 ####职业选择  
-* 只有开阔眼界，勇敢的尝试，经过了亲身实践，才能确定是否适合自己，此后才能把时间花在自己最热爱和痴迷的领域。
+* 传统行业发展缓慢，我的工作不饱和，希望投入更具活力的移动、手机游戏、互联网或智能硬件类的新兴行业。
 
 ####我的优势  
 * 得益于我的专业和工作经历，相比其他IOS开发者，我具备更对的嵌入式，Linux和硬件经验，这在物联网，智能硬件，穿戴式设备，医疗电子等领域占有优势; 更多的是，我还形成了**良好的编程能力和代码风格**, 获得了方方面面的**调试和改进**能力，不断**学习和自我提升**的习惯，相信这些在今后的工作中带来更多的便利和发展潜力。
