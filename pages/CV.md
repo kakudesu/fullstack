@@ -1,4 +1,9 @@
+---
+layout: page
+title: "简历"
 
+---
+{% include JB/setup %}
 
 <!--
 https://www.v2ex.com/t/149934#reply21
