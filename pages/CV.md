@@ -20,14 +20,10 @@ http://zh.lucida.me/blog/lean-technical-resume/
 #####经验
 
 * 2014 ~ 现在 iOS (个人)
-  * [onlineMusicPlayer](https://github.com/DingSoung/music)  
-这是我的一个典型IOS8 APP之一，它涉及到UIKit、Auto Layout、文件本地存取、JSON解析、网络访问等，使用AVFoundation, SwiftyJSON, Alamofire等Framework,各个功能友好衔接。
-  * [BLE framework](https://github.com/DingSoung/BLE)  
-进行中的蓝牙库，主要针对与IOS通信的穿戴式设备、智能家居等智能硬件和物联网开发。
-  * [data-graph](https://github.com/DingSoung/data-graph)  
-常用代码片段，算法归纳和一些技术总结
-  * [Sketch design](https://github.com/DingSoung/design)  
-我的Sketch作品，一些是临摹，也有很多是自主设计的
+  * [onlineMusicPlayer](https://github.com/DingSoung/music)  iOS8 APP之一，它涉及到UIKit、AVFoundation、Auto Layout、文件本地存取、JSON解析、Http网络访问等，和SwiftyJSON、Alamofire等第三方库。
+  * [BLE framework](https://github.com/DingSoung/BLE)  进行中的蓝牙库，主要针对与IOS通信的穿戴式设备、智能家居等智能硬件和物联网开发。
+  * [data-graph](https://github.com/DingSoung/data-graph)  常用代码片段，算法归纳和一些技术总结
+  * [Sketch design](https://github.com/DingSoung/design)  我的Sketch作品，一些是临摹，也有很多是自主设计的
 
 
 * 2013.11 ~ 2015.3 软件工程师 @ 锝镨电子科技(上海)有限公司 
