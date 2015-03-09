@@ -3,8 +3,8 @@ layout: page
 title: "简历"
 
 ---
-{% include JB/setup %}
-
+{% include JB/setup %}  
+[下载打印PDF](https://raw.githubusercontent.com/DingSoung/dingsoung.github.com/master/attach/DingSoungCV.pdf)
 <!--
 https://www.v2ex.com/t/149934#reply21
 http://zh.lucida.me/blog/lean-technical-resume/
@@ -34,8 +34,8 @@ http://zh.lucida.me/blog/lean-technical-resume/
 
 #####技能
 * 编程语言：熟悉Swift、C/C++和汇编，了解Objective-C;
-* 开发环境：Xcode, Sketch, IAR, Matlab;
+* 开发工具：Xcode, Sketch;
 
 #####教育
-* 2009～2013，理工学士，本科，电子信息工程.
-* 2010年我与导师申请到实验室，并与另外4人组成智能车试验小组，作为组长，我设计了[Linux驱动模块](https://github.com/DingSoung/linux-3.0.1/tree/master/drivers/char)和主要的系统程序以实现基本功能，并不断调试和调优。2011年,我们**获得了学校的资助**，2012年，关于该项目的论文被采纳，紧接着该项目衍生的个人毕业设计和论文被**评优**。
+* 2009 ~ 2013，本科，电子信息工程.
+* 2010年我与导师申请到实验室，并与另外4人组成智能车试验小组，作为组长，我设计了[Linux驱动模块](https://github.com/DingSoung/linux-3.0.1/tree/master/drivers/char)和主要的系统程序以实现基本功能，并不断调试和调优。2011年,项目**获得资助**，2012年，关于该项目的论文被采纳，紧接着该项目衍生的个人毕业设计和论文被**评优**。
