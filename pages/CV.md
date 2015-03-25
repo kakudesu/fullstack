@@ -15,7 +15,7 @@ http://zh.lucida.me/blog/lean-technical-resume/
 (＋86)170-9776-2778  
 <DingSoung@outlook.com>  
 <https://github.com/DingSoung>  
-_非工作时间麻烦邮件联系_
+_工作时间麻烦邮件联系_
 
 
 #####经验
