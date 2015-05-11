@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "高西CV"
+title: ""
 
 ---
 {% include JB/setup %}
@@ -41,7 +41,7 @@ title: "高西CV"
 
 
 [下载打印PDF](https://raw.githubusercontent.com/DingSoung/dingsoung.github.com/master/attach/GXCV.pdf)
-
+![github](https://raw.githubusercontent.com/DingSoung/dingsoung.github.com/master/attach/GXCV.png)
 
 
 
