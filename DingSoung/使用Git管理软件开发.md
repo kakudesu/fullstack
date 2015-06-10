@@ -4,7 +4,7 @@ title: "使用Git管理软件开发"
 
 ---
 {% include JB/setup %}
-。
+
 ###Git方法
     git clone 远程库地址
     //本地编辑调试代码
