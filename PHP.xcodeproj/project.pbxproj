@@ -411,6 +411,9 @@
 		FA92E66D1B85C0AD00A5CFAC /* dispatch_jump.tpl */ = {isa = PBXFileReference; lastKnownFileType = text; path = dispatch_jump.tpl; sourceTree = "<group>"; };
 		FA92E66E1B85C0AD00A5CFAC /* page_trace.tpl */ = {isa = PBXFileReference; lastKnownFileType = text; path = page_trace.tpl; sourceTree = "<group>"; };
 		FA92E66F1B85C0AD00A5CFAC /* think_exception.tpl */ = {isa = PBXFileReference; lastKnownFileType = text; path = think_exception.tpl; sourceTree = "<group>"; };
+		FA92E6701B85D5AD00A5CFAC /* app.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = app.php; sourceTree = "<group>"; };
+		FA92E6711B85D94D00A5CFAC /* my_text.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = my_text.php; sourceTree = "<group>"; };
+		FA92E6721B85D99300A5CFAC /* route.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = route.php; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -597,6 +600,9 @@
 			isa = PBXGroup;
 			children = (
 				FA92E4B61B85C0AC00A5CFAC /* index.php */,
+				FA92E6701B85D5AD00A5CFAC /* app.php */,
+				FA92E6711B85D94D00A5CFAC /* my_text.php */,
+				FA92E6721B85D99300A5CFAC /* route.php */,
 				FA92E4B71B85C0AC00A5CFAC /* info.php */,
 				FA92E4BB1B85C0AC00A5CFAC /* W3cSchool.php */,
 			);
