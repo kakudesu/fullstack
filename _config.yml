@@ -8,11 +8,11 @@ highlighter: pygments
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Soung's Blog
+title : Alex D.'s Blog
 tagline: for teconology
 author :
-  name : Soung
-  email : DingSoung@gmail.com
+  name : Alex
+  email : DingSoung@outlook.com
   github : DingSoung
   twitter : DingSoung
   feedburner : feedname
