@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "使用Git管理软件开发"
+title: "Git brief tips"
 
 ---
 {% include JB/setup %}
