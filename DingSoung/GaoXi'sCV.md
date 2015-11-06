@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "高西简历"
+title: "GaoXi'sCV"
 
 ---
 {% include JB/setup %}
