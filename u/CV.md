@@ -11,8 +11,8 @@ http://zh.lucida.me/blog/lean-technical-resume/
  
  
 ###丁松
-<!--(＋86)186-1337-5336  -->  
-Wechat,Twitter ID: DingSoung  
+(＋86)186-1337-5336  
+Wechat: DingSoung  
 <DingSoung@outlook.com>  
 <https://github.com/DingSoung>  
 
@@ -20,24 +20,24 @@ Wechat,Twitter ID: DingSoung
 
 * 2015 iOS软件工程师 @ 北京心意盒子信息技术有限公司
   * 担任重要iOS工程师，开发一个完整的电商客户端,包括界面，控制，逻辑，后端联调等。
-  * 该软件从零开始到1.0版开发历时约**2个月**，集用户中心、商品、订单等模块，包括商品的的分类、展示、购买、支付，订单的列表、详情、操作，第三方登录、注册、分享，尤其是特有的**凑分子**、**送礼物**功能。
+  * 该软件从0开始到V1.0上线历时**仅2个多月**，集用户中心、商品、订单等模块，包括商品的的分类、展示、购买、支付，订单的列表、详情、操作，第三方登录、注册、分享，尤其是特有的**凑分子**、**送礼物**功能。
   * 上线后紧接着多次迭代新功能，如推送消息，红包等功能，同时做一些优化调整，例如商品详情几乎全部**native**，适应复杂的商品类别、款式、状态等。
   * 截至上线后2个月[心意盒子](https://itunes.apple.com/cn/app/xin-yi-he-zi-song-li-wu-cou/id993083958?mt=8)上线，并迭代到2.0版本,App Store分类排名**11**，用户数超过**100K**。
   * 目前我仍在负责该软件的新功能迭代，调整，代码重构等工作。
 
 * 2013 ~ 2014 软件架构工程师 @ 台湾岱镨科技上海分公司 
-  * 改进烧录方法，升级软件架构: 支持了更复杂的可编程IC、脱机工作；其中我主要负责的底层烧录协议，控制时序，改进烧录方法，以达到足够高的稳定性和速度：对稳定性要求严格的OTP芯片不良率被控制在**0.05%**以内，远低于生产要求，烧录流程极其为复杂、需要通过JTAG深入调试ARM内核的MCU烧录速度提升约**2.5倍**
+  * 为自动化烧录机台开发新架构软件，深度挖掘硬件性能，相比旧架构，最大烧录速度**提升约2.5倍**，同时小小降低不良率**(0.05%以内)**，与美国BPM等国际公司竞争，在广东各个客户厂商赢得良好口碑。
   * 2014年兼任上海TVman数字电视接收器iOS客户端的开发。
 
-* 2012 ~ 2013 嵌入式软件工程师 @ 武汉点线科技有限公司 
-  * 设计电力分析模块和 [采样算法](https://github.com/DingSoung/data-graph/tree/master/DiscreteDataAnalysis)：适应宽频带的采样信号，使得频率一定范围内变化时，计算误差仍然很小，并且CPU时间开销相同，该算法将原设计的**误差从0.5%降到0.2%**，达到国家0.2S三相智能电表要求。
+* 2012 ~ 2013 实习并转正嵌入式软件工程师 @ 武汉点线科技有限公司 
+  
+  设计电力分析模块和 [采样算法](https://github.com/DingSoung/data-graph/tree/master/DiscreteDataAnalysis)，将原设计的精确度从0.5%**提升到0.2%**，达到国家0.2S等级。
 
-* 个人作品
-  * [summer](https://github.com/DingSoung/summer) 是我在iOS开发过程中积累的工具集，主要是Swift，包括UIKit，AutoLayout,常用Cocoa Touch Class技巧，扩展工具等，以及模块化好的第三方授权，支付、JSON解析、Http网络访问类。
+* 代码
+  * [Brick](https://github.com/DingSoung/Brick) 是我在iOS开发过程中积累的工具集，主要是Swift，包括UIKit，AutoLayout,常用Cocoa Touch Class技巧，扩展工具等，以及模块化好的第三方授权，支付、JSON解析、Http网络访问类。
   * [data-graph](https://github.com/DingSoung/data-graph.git) 常用代码片段，包括数字信号处理，算法归纳
   * [Linux](https://github.com/DingSoung/Linux.git) VPS，智能硬件，嵌入式系统等相关的脚本，代码笔记。
-  * 访问[我的Gthub](https://github.com/DingSoung/design)了解更多我的代码作品和参与的贡献。
-  
+    
 #####技能
 * 编程语言：熟练**Swift**、C和汇编，熟悉Objective-C、C++;
 * 开发工具：Xcode, Mac OS, Linux;
