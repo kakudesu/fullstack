@@ -46,7 +46,7 @@ http://zh.lucida.me/blog/lean-technical-resume/
  
  
 ###丁松
-男,  1990.03  
+男, 1990.03  
 (＋86)186-1337-5336  
 <DingSoung@outlook.com>  
 
