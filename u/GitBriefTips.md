@@ -48,10 +48,17 @@ title: "Git brief tips"
 ####多人协作
 如果是多人协作，在前面的第5步之前，一般需要做一下操作:
 
-    git pull
-    //再次本地编辑编译，修复报错的地方，确认工程正确
-    git add *
-    git commit -m 
+fork
+git clone myUrl
+
+git remote add upstring
+git fecth upstring
+git merge upstring/master
+
+
+git checkout -b feature-branch
+
+pull request  feature-branch    origin Response master or develop
 
 ####大型工程
 ######默认版本库在master分支上，该分支用于软件发布
