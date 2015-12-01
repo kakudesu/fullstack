@@ -54,24 +54,24 @@ male, 1990.03
 
 #####Work Experience
 
-* 2015.11 ~ Now Sr. iOS Software Engineer @ Beijin Haizhi Wangju network .Ltd
-  * Improve security and charts' rendering performance,restruct project of mobile client "BDP" which provides data analysis services for business users. theses efforts will meet the  demands of variety functions, strict security and friendly user experience.
+* 2015.11 ~ Now Sr. iOS Software Engineer @ Beijin Haizhi Wangju network. Ltd.
+  * Improve security and charts' rendering performance,refactor project of mobile client "BDP" which provides data analysis services for business users. theses efforts will meet the  demands of variety functions, strict security and friendly user experience.
 
-* 2015.3 ~ 2015.11 iOS Software Engineer @ Beijin Giftbox information & technology,.Ltd.
-  * Develop the mobile online retailers APP “Giftbox“, it took **only 2+ months** to start from zero to v1.0, more than normal platform, it owns the special order types of "crowdfunded" and "send gift". 
+* 2015.3 ~ 2015.11 iOS Software Engineer @ Beijin Giftbox information & technology co. Ltd.
+  * Develop the mobile online retailers APP “Giftbox“, it took **only 2+ months** to start from zero to v1.0, more than normal platform, it owns the special order types of "crowd funded" and "send gift". 
   * Iterative functions of bonus, invite code, topics, orders show etc. for festivals and promotion.
   * Glorify the APP by adjusting details and adding dynamic effects.
-  * Restruce the project for further expanding. 
+  * Refactor the project for further expanding. 
 
-* 2013.11 ~ 2015.3 Firmware Software Engineer @ Shanghai branch office of Taiwan Dediprog technology. ,Ltd.
-  * Developed new architecture software for automatic flash machine, expanded new featured and inproved performance, which made is possiable to flash about **2.5 times** faster and limit bad rate in **0.05%**,matched BPM and won more favor of Guangdong Midea. 
+* 2013.11 ~ 2015.3 Firmware Software Engineer @ Shanghai branch office of Taiwan Dediprog technology. Ltd.
+  * Developed new architecture software for automatic programming machine, expanded new featured and improved performance, which made is possible to program about **2.5 times** faster and limit bad rate in **0.05%**,matched BPM and won more favor of Guangdong Midea. 
   * Part-time of engineer to develop iOS client of digital TV remoting in 2014.
 
-* 2012.13 ~ 2013.11 Internship & Embedded Software Engineer @ Wuhan Point Line technology Co. ,Ltd.
-  * Designed and simulated lgorithm of electronic power analize model, Improve the accuracy from 0.5% to **0.2%**, which reached the 2s level.
+* 2012.13 ~ 2013.11 Internship & Embedded Software Engineer @ Wuhan Point Line technology Co. Ltd.
+  * Designed and simulated algorithm of electronic power analysis model, Improve the accuracy from 0.5% to **0.2%**, reached the 2s level.
 
 #####Skills
-* iOS: 2 Years, master **Swift**、skilled Objective-C, Cocoa touch, animation, and frameworks fo open source. 
+* iOS: 2 years experience, master **Swift**、skilled Objective-C, Cocoa touch, animation, and frameworks of open source. 
 * Embedded Linux,  Firmware: 2 years experience, master C & ssembly, skilled C++. 
 
 #####Education
