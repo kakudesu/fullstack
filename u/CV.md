@@ -5,6 +5,50 @@ title: "CV"
 ---
 {% include JB/setup %}  
 
+
+###Alex D
+male, 1990.03  
+(＋86)186-1337-5336  
+<DingSoung@outlook.com>  
+
+#####Work Experience
+
+* 2015.11 ~ Now Sr. iOS Software Engineer @ Beijin Haizhi Wangju network Ltd.
+  * Improve security and chart's rendering performance,refactor project of mobile client "BDP" which provides data analysis services for business users. theses efforts will meet the  demands of variety functions, strict security and friendly user experience.
+
+* 2015.3 ~ 2015.11 iOS Software Engineer @ Beijin Giftbox information & technology Co. Ltd.
+  * Develop the mobile online retailers APP “Giftbox“, it took **only 2+ months** to start from zero to v1.0, more than normal platform, it owns the special order types of "crowd funded" and "send gift". 
+  * Iterative functions of bonus, invite code, topics, orders show etc. for festivals and promotion.
+  * Glorify the APP by adjusting details and adding dynamic effects.
+  * Refactor the project for further expanding. 
+
+* 2013.11 ~ 2015.3 Firmware Software Engineer @ Shanghai branch office of Taiwan Dediprog technology Ltd.
+  * Developed new architecture software for automatic programming machine, expanded new featured and improved performance, which made is possible to program about **2.5 times** faster and limit bad rate in **0.05%**,matched BPM and won more favor of Guangdong Midea. 
+  * Part-time of engineer to develop iOS client of digital TV remoting in 2014.
+
+* 2012.13 ~ 2013.11 Internship & Embedded Software Engineer @ Wuhan Point Line technology Co. Ltd.
+  * Designed and simulated algorithm of electronic power analysis model, Improve the accuracy from 0.5% to **0.2%**, reached the 2s level.
+
+#####Skills
+* iOS: 2 years experience, master **Swift**、skilled Objective-C, Cocoa touch, animation, and frameworks of open source. 
+* Embedded Linux,  Firmware: 2 years experience, master C & assembly, skilled C++. 
+
+#####Education
+* 2009.9 ~ 2013.6 Xiangnan University, B.S.Eng, Electronic information & science technology.
+* Served as vice president of computer, Pass CET4 & NREC2 with high score. 
+* Applied tutor, co founded the laboratory and served as team leader, started the experiment of smart car,studied embedded system, write [Linux driver module](https://github.com/DingSoung/linux-3.0.1/tree/master/drivers/char) and multi thread program, designed power & motor controller ect.
+* Acted as teaching assistant, guided students to finish the experiment course. the laboratory project **funded** at the same year.
+* Published the laboratory project's study result "the use of application of quasi synchronous sampling algorithm in the on-chip system", my graduation papers and designing about ultrasonic measurement system was **rated as A**.
+
+#####Personal Code
+  * <https://github.com/DingSoung>  
+  * The [Brick](https://github.com/DingSoung/Brick) is a collection of tools, contains the tips of UIKit, Autolayout, Cocoa touch, extension etc. some manager such as JSON resolution, network request, authorization and pay system also included.
+  * The [data-graph](https://github.com/DingSoung/data-graph.git) contains code fragments about digital signal processing and algorithms etc.
+  * The [Linux](https://github.com/DingSoung/Linux.git) contains some usefull scripts about VPS, smart hardware, embedded system. 
+
+
+---
+
 ###丁松
 男, 1990.03  
 (＋86)186-1337-5336  
@@ -44,48 +88,6 @@ title: "CV"
   * [Brick](https://github.com/DingSoung/Brick) 是我在iOS开发过程中积累的工具集, 主要是Swift, 包括UIKit, AutoLayout, 常用Cocoa Touch Class技巧, 扩展工具等, 以及模块化好的第三方授权, 支付、JSON解析、Http网络访问类. 
   * [data-graph](https://github.com/DingSoung/data-graph.git) 常用代码片段, 包括数字信号处理, 算法归纳. 
   * [Linux](https://github.com/DingSoung/Linux.git) VPS, 智能硬件, 嵌入式系统等相关的脚本, 代码笔记. 
-
----  
-
-###Alex D
-male, 1990.03  
-(＋86)186-1337-5336  
-<DingSoung@outlook.com>  
-
-#####Work Experience
-
-* 2015.11 ~ Now Sr. iOS Software Engineer @ Beijin Haizhi Wangju network. Ltd.
-  * Improve security and charts' rendering performance,refactor project of mobile client "BDP" which provides data analysis services for business users. theses efforts will meet the  demands of variety functions, strict security and friendly user experience.
-
-* 2015.3 ~ 2015.11 iOS Software Engineer @ Beijin Giftbox information & technology co. Ltd.
-  * Develop the mobile online retailers APP “Giftbox“, it took **only 2+ months** to start from zero to v1.0, more than normal platform, it owns the special order types of "crowd funded" and "send gift". 
-  * Iterative functions of bonus, invite code, topics, orders show etc. for festivals and promotion.
-  * Glorify the APP by adjusting details and adding dynamic effects.
-  * Refactor the project for further expanding. 
-
-* 2013.11 ~ 2015.3 Firmware Software Engineer @ Shanghai branch office of Taiwan Dediprog technology. Ltd.
-  * Developed new architecture software for automatic programming machine, expanded new featured and improved performance, which made is possible to program about **2.5 times** faster and limit bad rate in **0.05%**,matched BPM and won more favor of Guangdong Midea. 
-  * Part-time of engineer to develop iOS client of digital TV remoting in 2014.
-
-* 2012.13 ~ 2013.11 Internship & Embedded Software Engineer @ Wuhan Point Line technology Co. Ltd.
-  * Designed and simulated algorithm of electronic power analysis model, Improve the accuracy from 0.5% to **0.2%**, reached the 2s level.
-
-#####Skills
-* iOS: 2 years experience, master **Swift**、skilled Objective-C, Cocoa touch, animation, and frameworks of open source. 
-* Embedded Linux,  Firmware: 2 years experience, master C & ssembly, skilled C++. 
-
-#####Education
-* 2009.9 ~ 2013.6 Xiangnan University, B.S.Eng, Electronic information & science technology.
-* Served as vice president of computer, Pass CET4 & NREC2 with high score. 
-* Applied tutor, co founded the laboratory and served as team leader, started the experiment of smart car,studied embedded system, write [Linux driver module](https://github.com/DingSoung/linux-3.0.1/tree/master/drivers/char) and multi thread program, designed power & motor controller ect.
-* Acted as teaching assistant, guided students to finish the experiment course. the laboratory project **funded** at the same year.
-* Published the laboratory project's study result "the use of application of quasi synchronous sampling algorithm in the on-chip system", my graduation papers and designing about ultrasonic measurement system ware **rated as A**.
-
-#####Personal Code
-  * <https://github.com/DingSoung>  
-  * The [Brick](https://github.com/DingSoung/Brick) is a collection of tools, contains the tips of UIKit, Autolayout, Cocoa touch, extension etc. some manager such as JSON phrase, network request, autho and pay system also involved.
-  * The [data-graph](https://github.com/DingSoung/data-graph.git) contains code fragments about digital signal processing and algorithms etc.
-  * The [Linux](https://github.com/DingSoung/Linux.git) contains some use scripts about VPS, smart hardware, embedded system. 
 
 
 
