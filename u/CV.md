@@ -13,16 +13,13 @@ title: "CV"
 #####职业背景
 
 * 2015.11 ~ 现在 高级iOS软件工程师 @ 北京海智网聚网络有限公司
-  * 为公司的“BDP”数据分析部门的客户端增加安全机制、优化数据图标显示和软件结构调整，以达满足到企业客户对数据安全的需求，提升性能，用户体验，和提升软件可持续迭代性。
+  * 为公司的“BDP”数据分析部门的客户端增加安全机制、优化数据图表渲染和软件结构调整，以达满足到企业客户对数据安全的需求，提升性能，用户体验，和提升软件可持续迭代性。
 
 * 2015.3 ~ 2015.11 iOS软件工程师 @ 北京心意盒子信息技术有限公司
   * 开发电商app"心意盒子", 从0到V1.0上线历时**仅2个多月**, 不仅实现一般电商平台所有基本的功能, 还新增**凑分子**,**送礼物**两大特有功能. 
   * 为节日活动先后多次快速迭代新功能, 增加邀请,红包,专题,晒脸,抽奖,介绍等等玩法. 
   * 优化app, 美化样式, 增加动画特效等. 
   * 整理和重构地工程代码. 
-  
- <!--开发一个完整的电商客户端, 包括界面, 控制, 逻辑, 后端联调等. 集用户中心、商品、订单等模块, 包括商品的的分类、展示、购买、支付, 订单的列表、详情、操作, 第三方登录、注册、分享.     上线后紧接着多次迭代新功能, 如推送消息, 红包等功能, 同时做一些优化调整, 例如商品详情几乎全**native**, 适应复杂的商品类别、款式、状态等.    截至上线后2个月[心意盒子](https://itunes.apple.com/cn/app/xin-yi-he-zi-song-li-wu-cou/id993083958?mt=8)上线, 并迭代到2.0版本, App Store分类排名**11**, 用户数超过**100K** 目前我仍在负责该软件的新功能迭代, 调整, 代码重构等工作. -->
-
 
 * 2013.11 ~ 2015.3 软件工程师 @ 台湾岱镨科技上海分公司 
   * 为自动化烧录机台开发新架构软件, 新增功能并提升性能, 较比旧架构提升最大传输速度**约2.5倍**, 同时有效降低不良率**(0.05%以内)**, 与美国BPM等国际公司竞争, 赢得更多广东各个客户厂商. 
@@ -48,7 +45,8 @@ title: "CV"
   * [data-graph](https://github.com/DingSoung/data-graph.git) 常用代码片段, 包括数字信号处理, 算法归纳. 
   * [Linux](https://github.com/DingSoung/Linux.git) VPS, 智能硬件, 嵌入式系统等相关的脚本, 代码笔记. 
 
----
+---  
+
 ###Alex D
 male, 1990.03  
 (＋86)186-1337-5336  
@@ -67,7 +65,7 @@ male, 1990.03
 
 * 2013.11 ~ 2015.3 Firmware Software Engineer @ Shanghai branch office of Taiwan Dediprog technology. ,Ltd.
   * Developed new architecture software for automatic flash machine, expanded new featured and inproved performance, which made is possiable to flash about **2.5 times** faster and limit bad rate in **0.05%**,matched BPM and won more favor of Guangdong Midea. 
-  * Part-time of engineer of develop iOS client of digital TV remoting in 2014.
+  * Part-time of engineer to develop iOS client of digital TV remoting in 2014.
 
 * 2012.13 ~ 2013.11 Internship & Embedded Software Engineer @ Wuhan Point Line technology Co. ,Ltd.
   * Designed and simulated lgorithm of electronic power analize model, Improve the accuracy from 0.5% to **0.2%**, which reached the 2s level.
@@ -79,10 +77,9 @@ male, 1990.03
 #####Education
 * 2009.9 ~ 2013.6 Xiangnan University, B.S.Eng, Electronic information & science technology.
 * Served as vice president of computer, Pass CET4 & NREC2 with high score. 
-* Applied tutor, co founded the laboratory and served as team leader,Carried out the experiments of intelligent vehicles, self study embedded system, write [Linux driver module](https://github.com/DingSoung/linux-3.0.1/tree/master/drivers/char), multi thread programming, design power & motor controller ect.
-* 申请导师, 联合创办实验室并担任实验室小组组长, 开展智能车的实验, 自习嵌入式系统, 编写[Linux驱动模块](https://github.com/DingSoung/linux-3.0.1/tree/master/drivers/char),多线程编程, 设计电源、电机控制器等硬件. 
-* 期间担任助教, 指导学生完成实验课程. 同年实验室项目**获得资助**. 
-* 就实验室项目在刊物上发表论文“准同步采样算法在片上系统中的运用”, 毕业设计个人的超声波测量系统作品和论文**评为优秀**. 
+* Applied tutor, co founded the laboratory and served as team leader, started the experiment of smart car,studied embedded system, write [Linux driver module](https://github.com/DingSoung/linux-3.0.1/tree/master/drivers/char) and multi thread program, designed power & motor controller ect.
+* Acted as teaching assistant, guided students to finish the experiment course. the laboratory project **funded** at the same year.
+* Published the laboratory project's study result "the use of application of quasi synchronous sampling algorithm in the on-chip system", my graduation papers and designing about ultrasonic measurement system ware **rated as A**.
 
 #####Personal Code
   * <https://github.com/DingSoung>  
