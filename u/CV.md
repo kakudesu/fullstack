@@ -6,17 +6,17 @@ title: "CV"
 {% include JB/setup %}  
 
 
-###Alex D
+###Alex D.
 male, 1990.03  
 (＋86)186-1337-5336  
 <DingSoung@outlook.com>  
 
 #####Work Experience
 
-* 2015.11 ~ Now Sr. iOS Software Engineer @ Beijin Haizhi Wangju network Ltd.
+* 2015.11 ~ Now Sr. iOS Software Engineer @ Beijing Haizhi Wangju network Ltd.
   * Improve security and chart's rendering performance,refactor project of mobile client "BDP" which provides data analysis services for business users. theses efforts will meet the  demands of variety functions, strict security and friendly user experience.
 
-* 2015.3 ~ 2015.11 iOS Software Engineer @ Beijin Giftbox information & technology Co. Ltd.
+* 2015.3 ~ 2015.11 iOS Software Engineer @ Beijing Giftbox information & technology Co. Ltd.
   * Develop the mobile online retailers APP “Giftbox“, it took **only 2+ months** to start from zero to v1.0, more than normal platform, it owns the special order types of "crowd funded" and "send gift". 
   * Iterative functions of bonus, invite code, topics, orders show etc. for festivals and promotion.
   * Glorify the APP by adjusting details and adding dynamic effects.
@@ -24,7 +24,7 @@ male, 1990.03
 
 * 2013.11 ~ 2015.3 Firmware Software Engineer @ Shanghai branch office of Taiwan Dediprog technology Ltd.
   * Developed new architecture software for automatic programming machine, expanded new featured and improved performance, which made is possible to program about **2.5 times** faster and limit bad rate in **0.05%**,matched BPM and won more favor of Guangdong Midea. 
-  * Part-time of engineer to develop iOS client of digital TV remoting in 2014.
+  * Part-time of engineer to develop iOS client of digital TV remote in 2014.
 
 * 2012.13 ~ 2013.11 Internship & Embedded Software Engineer @ Wuhan Point Line technology Co. Ltd.
   * Designed and simulated algorithm of electronic power analysis model, Improve the accuracy from 0.5% to **0.2%**, reached the 2s level.
@@ -36,15 +36,15 @@ male, 1990.03
 #####Education
 * 2009.9 ~ 2013.6 Xiangnan University, B.S.Eng, Electronic information & science technology.
 * Served as vice president of computer, Pass CET4 & NREC2 with high score. 
-* Applied tutor, co founded the laboratory and served as team leader, started the experiment of smart car,studied embedded system, write [Linux driver module](https://github.com/DingSoung/linux-3.0.1/tree/master/drivers/char) and multi thread program, designed power & motor controller ect.
+* Applied tutor, co founded the laboratory and served as team leader, started the experiment of smart car,studied embedded system, write [Linux driver module](https://github.com/DingSoung/linux-3.0.1/tree/master/drivers/char) and multi thread program, designed power & motor controller etc.
 * Acted as teaching assistant, guided students to finish the experiment course. the laboratory project **funded** at the same year.
 * Published the laboratory project's study result "the use of application of quasi synchronous sampling algorithm in the on-chip system", my graduation papers and designing about ultrasonic measurement system was **rated as A**.
 
 #####Personal Code
   * <https://github.com/DingSoung>  
-  * The [Brick](https://github.com/DingSoung/Brick) is a collection of tools, contains the tips of UIKit, Autolayout, Cocoa touch, extension etc. some manager such as JSON resolution, network request, authorization and pay system also included.
+  * The [Brick](https://github.com/DingSoung/Brick) is a collection of tools, contains the tips of UIKit, Autolayout, Cocoa touch, extension etc. some manager such as JSON resolution, network request, autho and pay system also included.
   * The [data-graph](https://github.com/DingSoung/data-graph.git) contains code fragments about digital signal processing and algorithms etc.
-  * The [Linux](https://github.com/DingSoung/Linux.git) contains some usefull scripts about VPS, smart hardware, embedded system. 
+  * The [Linux](https://github.com/DingSoung/Linux.git) contains some useful scripts about VPS, smart hardware, embedded system. 
 
 
 ---
