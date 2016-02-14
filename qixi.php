@@ -1,6 +1,6 @@
 ﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<title> 七夕爱你一万年</title>
+		<title> 💗</title>
 
         <link type="text/css" rel="stylesheet" href="renxi/default.css">
 		<script type="text/javascript" src="renxi/jquery.min.js"></script>
@@ -38,7 +38,7 @@
 			        	<span class="say"><?php echo $_GET["san"]; ?></span><br>
 <span class="say"><?php echo $_GET["si"]; ?></span><br>-->
 
- <span class="say">我想在这里对你说</span><br>
+ <span class="say">  </span><br>
 						<span class="say"> </span><br>
                         <span class="say"><span class="space"></span><?php echo $_GET["wu"]; ?></span><br>
 						<span class="say"><span class="space"></span> <?php echo $_GET["me"]; ?></span>
@@ -47,7 +47,7 @@
                 </div>
                 <div id="clock-box">
                     <span class="STYLE1"></span><font color="#33CC00">截至今天我们已经</font>
-<span class="STYLE1"> 默默走过了</span>
+<span class="STYLE1"> 渡过了</span>
                   <div id="clock"></div>
               </div>
                 <canvas id="canvas" width="1100" height="680"></canvas>
