@@ -1,31 +1,6 @@
 <?php
-// +----------------------------------------------------------------------
-// | ThinkPHP [ WE CAN DO IT JUST THINK ]
-// +----------------------------------------------------------------------
-// | Copyright (c) 2006-2014 http://thinkphp.cn All rights reserved.
-// +----------------------------------------------------------------------
-// | Licensed ( http://www.apache.org/licenses/LICENSE-2.0 )
-// +----------------------------------------------------------------------
-// | Author: liu21st <liu21st@gmail.com>
-// +----------------------------------------------------------------------
-
-// 应用入口文件
-
-// 检测PHP环境
-if(version_compare(PHP_VERSION,'5.3.0','<'))  die('require PHP > 5.3.0 !');
-
-// 开启调试模式 建议开发阶段开启 部署阶段注释或者设为false
-define('APP_DEBUG',True);
-
-// 定义应用目录
-define('APP_PATH','./Application/');
-
-// 引入ThinkPHP入口文件
-require './ThinkPHP/ThinkPHP.php';
-
-// 亲^_^ 后面不需要任何代码了 就是如此简单
 //重定向浏览器
-header("Location: http://cuicui.ga/qixi.php?me=%E8%80%81%E5%A4%A7&you=%E5%B4%94%E5%B4%94&yi=%E6%88%91%E6%83%B3%E8%B7%9F%E4%BD%A0%E4%B8%80%E8%B5%B7%E5%8E%BB%E5%90%83%E5%B0%BD%E7%BE%8E%E9%A3%9F%2C+%E5%8E%BB%E6%B8%B8%E5%B1%B1%E7%8E%A9%E6%B0%B4%2C+%E5%85%B1%E5%BB%BA%E7%BE%8E%E6%BB%A1%E7%94%9F%E6%B4%BB%2C+%E4%BB%A5%E5%90%8E%E8%BF%98%E6%9C%89%E5%BE%88%E5%A4%9A%E5%BE%88%E5%A4%9A%E5%BF%AB%E4%B9%90%E7%9A%84%E4%BA%8B%E6%83%85.+%E5%81%9A%E6%88%91%E6%B8%A9%E6%9F%94+%E5%8F%AF%E7%88%B1+%E4%BD%93%E8%B4%B4+%E7%BA%AF%E7%9C%9F+%E7%88%B1%E6%88%91%E7%9A%84%E5%B4%94%E5%B4%94&wu=%E8%80%81%E5%A9%86%E6%83%B3%E4%BD%A0%E4%BA%86&year=2015&yue=12&ri=25&submit=");
+header("Location: http://cuicui.ga/qixi.php?me=%E5%B4%94%E5%B4%94&you=%E8%80%81%E5%A4%A7&yi=%E8%B7%9F%E4%BD%A0%E7%9B%B8%E5%A4%84%E7%9A%84%E8%BF%99%E4%BA%9B%E6%97%A5%E5%AD%90%2C+%E8%99%BD%E7%84%B6%E5%81%B6%E5%B0%94%E6%9C%89%E5%87%A0%E6%AC%A1%E5%90%B5%E6%9E%B6%2C+%E4%BD%86%E6%98%AF%E7%BB%9D%E5%A4%A7%E9%83%A8%E5%88%86%E5%9B%9B%E4%B8%AA%E9%83%BD%E6%98%AF%E7%94%9C%E7%BE%8E%E7%9A%84.+%E4%BD%A0%E8%AE%A9%E6%88%91%E7%9A%84%E7%94%9F%E6%B4%BB%E6%9B%B4%E5%8A%A0%E5%85%85%E5%AE%9E%2C+%E4%BF%83%E8%BF%9B%E6%88%91%E7%9A%84%E5%90%91%E4%BA%BA%E7%94%9F%E6%9B%B4%E8%BF%88%E8%BF%9B%E4%B8%80%E5%A4%A7%E6%AD%A5%2C+%E8%B0%A2%E8%B0%A2%E6%9C%89%E4%BD%A0.+%E5%90%8C%E4%BA%8B%E6%88%91%E4%B9%9F%E6%83%B3%E6%8A%8A%E4%BD%A0%E8%AE%A1%E5%88%92%E5%88%B0%E6%88%91%E7%9A%84%E6%A2%A6%E6%83%B3%E4%B8%AD%2C+%E4%B8%80%E8%B5%B7%E5%8E%BB%E5%90%83%E5%B0%BD%E7%BE%8E%E9%A3%9F%2C+%E6%B8%B8%E5%B1%B1%E7%8E%A9%E6%B0%B4%2C+%E5%BB%BA%E7%AB%8B%E5%B0%8F%E5%AE%B6%E5%BA%AD%2C+%E4%BD%93%E5%91%B3%E4%BA%BA%E7%94%9F%E7%99%BE%E5%91%B3.&wu=%E6%88%91%E7%88%B1%E4%BD%A0&year=2015&yue=12&ri=25&submit=");
 //确保重定向后，后续代码不会被执行
 exit;
 ?>
