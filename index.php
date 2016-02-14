@@ -14,15 +14,15 @@
 
 <body>
 
-  <div class="container">
+  <div class="container">  
  <form id="contact" action="qixi.php" method="get">
     <h3>七夕我爱你</h3>
     <h4>请填写以下内容，然后让你爱的人看之后的页面!</h4>
     <fieldset>
-      <input placeholder="你的昵称" name="老大" type="text" tabindex="1" required>
+      <input placeholder="你的昵称" name="me" type="text" tabindex="1" required>
     </fieldset>
     <fieldset>
-      <input placeholder="爱的人昵称" name="崔崔" type="text" tabindex="2" required>
+      <input placeholder="爱的人昵称" name="you" type="text" tabindex="2" required>
     </fieldset>
 	<fieldset>
       <textarea placeholder="你想说的话限128字内" name="yi" tabindex="5" required></textarea>
@@ -38,18 +38,18 @@
     </fieldset>
 	<fieldset>
       <input placeholder="想说的第四句话限28字内" name="si" type="text" tabindex="2" required>
-    </fieldset>
+    </fieldset>	
 	<fieldset>
       <input placeholder="终极表白语10字内" name="wu" type="text" tabindex="2" required>
     </fieldset>	-->
     <fieldset>
-      <input placeholder="2015" name="year" type="text" tabindex="3" required>
+      <input placeholder="年：如2014" name="year" type="text" tabindex="3" required>
     </fieldset>
     <fieldset>
-      <input placeholder="12" name="yue" type="text" tabindex="4" required>
+      <input placeholder="月：如7" name="yue" type="text" tabindex="4" required>
     </fieldset>
     <fieldset>
-      <input placeholder="25" name="ri" type="text" tabindex="4" required>
+      <input placeholder="日：如20" name="ri" type="text" tabindex="4" required>
     </fieldset>
     <fieldset>
       <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">提交</button>
@@ -66,7 +66,7 @@
         var descContent = '旌商商城，\n\n七夕爱你永不变';
         var shareTitle = '旌商商城爱你一万年表白系统';
         var appid = '';
-
+         
         function shareFriend() {
             WeixinJSBridge.invoke('sendAppMessage',{
                 "appid": appid,
