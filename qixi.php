@@ -27,7 +27,7 @@
              <div id="wrap">
                 <div id="text">
 			        <div id="code">
-			      <font color="#FF0000">  	<span class="say">亲爱的<?php echo $_GET["you"]; ?></span><br>
+			      <font color="#FF0000"><span class="say"><?php echo $_GET["you"]; ?></span><br>
 				  <span class="say"><?php echo $_GET["yi"]; ?></span><br>
 						<!--<span class="say"> </span><br>
 <span class="say"> <?php echo $_GET["er"]; ?></span><br>
