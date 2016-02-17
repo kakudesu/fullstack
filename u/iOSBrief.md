@@ -23,6 +23,36 @@ Swift更新细节
 
 
 
+- Break point User
+
+- realview
+
+- Dash
+
+- paint code
+- Spark 
+- paw 调试HTTP
+- d  画图的
+
+
+- expr @import UIKit
+- expr @import Foundation
+
+
+
+- Command LLDB
+bt
+po
+fr select 3  选择栈  左边的
+reg read 读寄存器  reg read rip
+mem read &rip 读内存
+disassemble -c 10 汇编码
+
+
+
+
+
+
 多线程
 
 归档 encode decode
