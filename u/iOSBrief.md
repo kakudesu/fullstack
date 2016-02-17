@@ -30,7 +30,7 @@ Swift更新细节
 - Dash
 
 - paint code
-- Spark 
+- Spark
 - paw 调试HTTP
 - d  画图的
 
@@ -66,6 +66,11 @@ Init 初始化 super.init之前
 lazy 关键字 还有很多其它关键字
 
 # Git
+
+### 常用命令
+  git init
+  git add <file name>
+  
 
 # 数据结构
 
