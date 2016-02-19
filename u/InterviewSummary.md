@@ -106,8 +106,6 @@ AutoClosure
 Init 初始化 super.init之前
 lazy 关键字 还有很多其它关键字
 
----
-
 # Git
 ## 常用的情况
 1. 已有版本库
@@ -149,10 +147,10 @@ git push origin master
 ## 工具 & 平台
 1. SourceTree
 2. github
----
+
 # 数据结构
----
+
 # 算法
----
+
 # 软件架构
 MVC, MPV, MVVM, view Model,
