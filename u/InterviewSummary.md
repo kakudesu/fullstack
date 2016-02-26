@@ -7,7 +7,49 @@ title: "Interview Summary"
 
 # iOS技术要点
 
-## Objective-C
+## Objective-C / Swift
+
+### 异常处理
+```
+try {
+        //do someting
+} catch {
+        //error
+}
+```
+```
+if let a = b as NSString {
+}
+guard let a = b as NSString else {
+}
+```
+### 扩展
+```
+@interface classNAme (extensionName)
+ -(NSString)stringWithType:(Type*)type {
+         return @"string"
+ }
+@end
+```
+
+```
+extension className {
+        public var a:String {
+                return "a"?
+        }
+
+        public func funcName(a:Int)->String {
+                return "result"
+        }
+
+        convenience init(jsonStr: String) {
+                self.init()
+        }
+}
+```
+[更多例子](https://github.com/DingSoung/Brick/blob/master/Extension/NSObject%2BTools.swift)
+### 闭包, Block
+###
 
 weak block。GCD巩固 NSoperation巩固。TV盒子项目。交换变量。动画图形，drawrect. 动画的详细。
 Xcode 调试命令。Linux GDB调试。
