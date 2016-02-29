@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "CV"
+title: "CuiCui2CV"
 
 ---
 {% include JB/setup %}
