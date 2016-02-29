@@ -8,8 +8,7 @@ title: "CuiCui2CV"
 ### 焦崔玲
 女, 1995.08  
 (＋86)1314-10777-50
-<develperling@icloud.com>  
-目标职位: iOS实习
+ <develperling@icloud.com>  
 
 ##### 简介
 * 2年编程经验, 专注iOS开发, 熟练Xcode, 擅长Objective-C.
