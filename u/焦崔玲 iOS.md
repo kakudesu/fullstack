@@ -7,8 +7,8 @@ title: "CuiCui2CV"
 
 ### 焦崔玲
 女, 1995.08  
-(＋86)1314-10777-50  
-<DingSoung@icloud.com>  
+(＋86)1314-10777-50
+<develperling@icloud.com>  
 目标职位: iOS实习
 
 ##### 简介
