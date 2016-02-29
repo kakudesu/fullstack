@@ -8,7 +8,7 @@ title: "CuiCui2CV"
 ### 焦崔玲
 女, 1995.08  
 (＋86)1314-10777-50
- <develperling@icloud.com>  
+develperling@icloud.com 
 
 ##### 简介
 * 2年编程经验, 专注iOS开发, 熟练Xcode, 擅长Objective-C.
@@ -22,7 +22,7 @@ title: "CuiCui2CV"
   * 使用MVVM中的ViewModel思想, 讲对象化的数据呈现在View上
   * 利用ViewController生命周期和View的函数调用关系, 做好APP的页面跳转, 横屏旋转, 布局, 页面数据刷新, 交互等等.
   * 目前虽然界面简朴, 但是已经实现了节点, 专题列表, 详情, 评论列表等功能, 后期功能还将会随着API的完善越来越强大, 同时为界面交互配色渲染, 增加动画和特效.
-* Github <http://github.com/cuicui2>
+* Github http://github.com/cuicui2
 
 ##### 教育经历
 * 2013.09 河北软件技术学院, 电子商务专业, 对计算机技术更感兴趣. 年末主动退学, 专注学习和钻研编程.
