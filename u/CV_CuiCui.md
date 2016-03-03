@@ -8,7 +8,7 @@ title: "CuiCui2CV"
 ### 焦崔玲
 女, 1995.08  
 (＋86)1314-10777-50  
-develperling@icloud.com 
+develperling@icloud.com
 
 ##### 简介
 * 2年编程经验, 专注iOS开发, 熟练Xcode, 擅长Objective-C.
@@ -26,6 +26,5 @@ develperling@icloud.com
 
 ##### 教育经历
 * 2013.09 河北软件技术学院, 电子商务专业, 对计算机技术更感兴趣. 年末主动退学, 专注学习和钻研编程.
-* 2014.02 ~ 2015.08 参加移动互联网开发学习的行列, 从Objective-C开始到Cocoa touch,再到AFN SDWebImage等各种第三方库的运用, 后期过程中主要靠自学和独立思路, 反复积累, 不断深入.
-* 2015.08 ~ 2015.11 项目实战, 顺利通过考验, 锻炼了自我更新知识,现学现用和解决问题的能力, 熟练应对实际项目中的各种困难, 如Cocoachina了解最新技术, Debug, 运用StackExchange等等.
-* 2015.11 ~ 2016.02 技术提升, 通过参与开发V2EX客户端, 对iOS的技术的广度和深度有了更深层次的提升, 对MVC, MVVM更深刻的体会, 同时也补充了日常开发过程中常用的其他技能,如Git, Markdown,等等.
+* 2014.02 ~ 2015.11 自学iOS移动应用开发, 从Objective-C开始到Cocoa touch,再到AFN SDWebImage等各种第三方库的运用, 后期过程中主要靠自学和独立思路, 反复积累, 不断深入.
+* 2015.11 ~ 2016.02 通过开发V2EX, 锻炼了自我更新知识,现学现用和解决问题的能力, 熟练应对实际项目中的各种困难, 如Cocoachina了解最新技术, Debug, 运用StackExchange等等. 对iOS的技术的广度和深度有了更深层次的提升, 对MVC, MVVM更深刻的体会, 同时也补充了日常开发过程中常用的其他技能,如Git, Markdown,等等.
