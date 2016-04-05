@@ -1,6 +1,6 @@
 <?php
 //重定向浏览器
-if ($_SERVER['HTTP_HOST'] == "cuicui.dingsoung.com") {
+if (strcmp($_SERVER['HTTP_HOST'], "cuicui.dingsoung.com")) {
         header("Location: http://dingsoung.com/cuicui/);
 } else {
         exit;
