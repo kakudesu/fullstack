@@ -13,8 +13,7 @@ title: "Interview Summary"
 
 # iOS技术要点
 
-## Objective-C / Swift
-
+### Objective-CC
 #### 语言特性
 * 对象的语言特性：封装、继承、多态。
 * 静态语言的特性
@@ -41,6 +40,72 @@ title: "Interview Summary"
 * OC是支持垃圾回收机制的(Garbage collection简称GC),但是apple的移动终端中,是不支持GC的,Mac桌面系统开发中是支持的.
 * 移动终端开发是支持ARC（Automatic Reference Counting的简称）,ARC是在IOS5之后推出的新技术,它与GC的机制是不同的。
 
+#### 协议
+* OC中的协议是一个方法列表, 可以被任何类使用(实现),但它并不是类(这里我们需要注意),自身不会实现这样方法, 而是又其他人来实现协议经常用来实现委托对象(委托设计模式), 默认是必须实现(@required),添加关键字@optional
+
+#### 代理
+代理又叫委托，是一种设计模式，代理是对象与对象之间的通信交互，代理解除了对象之间的耦合性,改变或传递控制链。允许一个类在某些特定时刻通知到其他类，而不需要获取到那些类的指针。可以减少框架复杂度。
+代理的属性常是assign的原因：防止循环引用,以至对象无法得到正确的释放。
+```
+weak var delegate: UITableViewDelegate?
+@property(nonatomic, weak) id< UITableViewDelegate > delegate
+```
+
+#### NSNotification、Block、Delegate和KVO的区别
+* 代理是一种回调机制，且是一对一的关系，通知是一对多的关系，一个对向所有的观察者提供变更通知；
+* 效率：Delegate比 NSNotification 高
+* Delegate和Block一般是一对一的通信；
+* Delegate需要定义协议方法，代理对象实现协议方法，并且需要建立代理关系才可以实现通信；
+* Block：Block更加简洁，不需要定义繁琐的协议方法，但通信事件比较多的话，建议使用Delegate；
+
+#### 可修改和不可以修改类型
+比如NSArray和NSMutableArray,
+
+#### 对谓词的认识
+Cocoa 中提供了一个NSPredicate的类,该类主要用于指定过滤器的条件, 每一个对象通过谓词进行筛选,判断条件是否匹配。
+
+#### static、self、super关键字的作用
+
+#### #include与#import的区别，#import 与@class 的区别
+* #include 和#import其效果相同,都是查询类中定义的行为(方法);
+* #import不会引起交叉编译,确保头文件只会被导入一次；
+* @class 的表明,只定 义了类的名称,而具体类的行为是未知的,一般用于.h 文件；
+* @class 比#import 编译效率更高。
+* 此外@class 和#import 的主要区别在于解决引用死锁的问题。
+
+#### @public、@protected、@private 它们的含义与作用
+* @public:对象的实例变量的作用域在任意地方都可以被访问 ;
+* @protected:对象的实例变量作用域在本类和子类都可以被访问 ;
+* @private:实例变量的作用域只能在本类(自身)中访问 .
+
+#### isMemberOfClass 和 isKindOfClass
+isKindOfClass 不仅用来确定一个对象是否是一个类的成员,也可以用来确定一个对象是否派生自该类的类的成员 ,而isMemberOfClass 只能做到第一点
+
+#### 数据持久性
+* 属性列表：只有NSString、NSArray、NSDictionary、NSData可writeToFile；存储依旧是plist文件。plist文件可以存储的7中数据类型：array、dictionary、string、bool、data、date、number。
+* 对象序列化（对象归档）：对象序列化通过序列化的形式，键值关系存储到本地，转化成二进制流。通过runtime实现自动化归档/解档，请参考这个文章。实现NSCoding协议必须实现的两个方法：
+  1.编码（对象序列化）：把不能直接存储到plist文件中得到数据，转化为二进制数据，NSData，可以存储到本地
+  2.解码（对象反序列化）：把二进制数据转化为本来的类型。
+* SQLite 数据库<FMDB>
+* CoreData ：通过管理对象进行增、删、查、改操作<magical record>  <--重点缺失-->
+
+#### 其它
+* self.name = _name，name = _name区别? 前者是存在内存管理的setter方法赋值,它会对_name对象进行保留或者拷贝操作, 后者是普通赋值
+* self = [super init]方法? 容错处理,当父类初始化失败,会返回一个nil,表示初始化失败。由于继承的关系,子类是需要拥有父类的实例和行为,因此,我们必须先初始化父类,然后再初始化子类
+* assign、retain、copy 以及它们的之间的区别?
+  * assign:普通赋值,一般常用于基本数据类型,常见委托设计模式, 以此来防止循环引用。(我们称之为弱引用).
+  * retain:保留计数,获得到了对象的所有权,引用计数在原有基础上加1.
+  * copy:一般认为,是在内存中重新开辟了一个新的内存空间,用来 存储新的对象,和原来的对象是两个不同的地址,引用计数分别为1。但是当copy对象为不可变对象时,那么copy 的作用相当于retain。因为,这样可以节约内存空间
+* 堆和栈的区别
+  * 栈区(stack)由编译器自动分配释放,静态分配和动态分配, 静态分配是编译器完成的，比如局部变量的分配,动态分配由alloca函数进行分配，但是栈的动态分配和堆是不同的，他的动态分配是由编译器进行释放，无需我们手工实现, 计算机会在底层对栈提供支持：分配专门的寄存器存放栈的地址，压栈出栈都有专门的指令执行，这就决定了栈的效率比较高。堆则是C/C++函数库提供的，它的机制是很复杂的。
+  * 堆区(heap)一般由程序员分配释放, 动态分配
+  * 全局区(静态区)(static),全局变量和静态变量的存储是放在一块 的,初始化的全局变量和静态变量在一块区域, 未初始化的全局变量和未初始化的静态变量在相邻的另一块区域。程序结束后有系统释放。
+  * 文字常量区—常量字符串就是放在这里的。程序结束后由系统释放。
+  * 程序代码区—存放函数体的二进制代码
+* performSelector传入3个以上参数 <----缺失---->
+
+## Objective-C / Swift
+
 ### 异常处理
 ```
 try {
@@ -55,7 +120,7 @@ if let a = b as NSString {
 guard let a = b as NSString else {
 }
 ```
-### 扩展
+### 类目category, 扩展
 ```
 @interface classNAme (extensionName)
  -(NSString)stringWithType:(Type*)type {
@@ -80,6 +145,35 @@ extension className {
 }
 ```
 [更多例子](https://github.com/DingSoung/Brick/blob/master/Extension/NSObject%2BTools.swift)
+
+#### 循环引用的产生原因，以及解决方法
+* 对象A和对象B相互引用了对方作为自己的成员变量，只有自己销毁的时候才能将成员变量的引用计数减1。对象A的销毁依赖于对象B的销毁，同时对象B销毁也依赖与对象A的销毁，从而形成循环引用，此时，即使外界没有任何指针访问它，它也无法释放。
+* 解决方法：1事先知道存在循环引用的地方，在合理的位置主动断开一个引用，是对象回收；2使用弱引用的方法。
+
+#### 键路径(keyPath)、键值编码（KVC）和键值观察（KVO）
+* keypath, setValue(5, keypath: "layer.cornerRadius")
+* KVC, 通过key找到value的原理, [self valueForKey:@”someKey”],  setValue(CGRectZero(), key: "frame")；
+* KVO中谁要监听谁注册，然后对响应进行处理，使得观察者与被观察者完全解耦。KVO只检测类中的属性，并且属性名都是通过NSString来查找，编译器不会检错和补全，全部取决于自己。
+
+```
+//注册观察者(注意：观察者和被观察者不会被保留也不会被释放)
+- (void)addObserver:(NSObject *)observer forKeyPath:(NSString *)keyPath
+options:(NSKeyValueObservingOptions)options
+context:(void *)context;
+//接收变更通知
+- (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context  {
+        if ([keyPath isEqualToString:@"highlighted"] ) {
+                [self setNeedsDisplay];
+        }
+}
+//移除对象的观察者身份
+- (void)removeObserver:(NSObject *)observer
+forKeyPath:(NSString *)keyPath;
+```
+
+
+
+
 ### 闭包, Block
 ###
 
