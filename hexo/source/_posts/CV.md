@@ -1,10 +1,6 @@
 ---
-layout: page
-title: "CV"
+title: CV
 ---
-
-{% include JB/setup %}  
-
 
 ### Alex D.
 male, 1990.03  

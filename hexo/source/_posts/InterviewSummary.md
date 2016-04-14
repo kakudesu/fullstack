@@ -1,10 +1,6 @@
 ---
-layout: page
-title: "Interview Summary"
-
+title: Interview Summary
 ---
-{% include JB/setup %}  
-
 
 <!-- https://mp.weixin.qq.com/s?__biz=MjM5OTM0MzIwMQ==&mid=404533892&idx=1&sn=7b281b7d40304814352cfffe961bdb27&scene=1&srcid=0407v5yfnfjyu2qJofA3xQZb&pass_ticket=2I%2FxD2T%2FgSiJH9gGAnVTSsa%2FqcrYuluvb6Gh0gwhav099v%2B1z%2F504dwCGPhRtks8#rd
 
