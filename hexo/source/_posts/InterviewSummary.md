@@ -9,7 +9,7 @@ title: Interview Summary
 
 # iOS技术要点
 
-### Objective-CC
+### Objective-C
 #### 语言特性
 * 对象的语言特性：封装、继承、多态。
 * 静态语言的特性
