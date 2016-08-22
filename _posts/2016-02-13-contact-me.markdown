@@ -8,7 +8,8 @@ date: 2016-08-22 21:18:19.000000000 +08:00
 
 懒得写介绍
 
-<div class="github-card" data-user="onevcat" data-width=100% data-height=""></div>
+// 这样弄github 卡片
+<div class="github-card" data-user="DingSoung" data-width=100% data-height=""></div>
 
 <center>
 
