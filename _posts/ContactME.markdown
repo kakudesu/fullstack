@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Contact me
-date: 2016-08-22 21:18:19.000000000 +08:00
 ---
 
 懒得发自拍
