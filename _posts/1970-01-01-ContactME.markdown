@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Contact me
+date: 1970-01-01 00:00:00.000000000 +08:00
 ---
 
 懒得发自拍
