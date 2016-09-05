@@ -8,11 +8,4 @@ date: 2016-03-02 00:00:00.000000000 +08:00
 <center>
 <div class="github-card" data-user="DingSoung" data-repo="CCPDFImage" data-width=100% data-height="177"></div>
 </center>
-<!--
-<center>
-<h1>
-<a href="https://github.com/DingSoung/CCPDFImage" class="fa fa-github"></a>
-</h1>
-</center>
--->
 
