@@ -1,6 +1,3 @@
-https://github.com/DingSoung/WJHexColor
-
-
 ---
 layout: post
 title: WJHexColor
