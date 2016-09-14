@@ -2,44 +2,51 @@
 function print(value) {
     document.writeln(value);
 }
-print('hello javascript');
-// 换行
+print('hello javascript' + "<br>");
 print('<br/>');
 
 // 数学函数
 function hello(deagree) {
     return Math.log(deagree);
 }
-print(hello(1));
-
+print(hello(1) + "<br>");
 print('<br/>');
 
 // 设计
 function totalPrice(num, tang) {
     return num * tang;
 }
-print(totalPrice(4, 3));
+print(totalPrice(4, 3) + "<br>");
+print('<br/>');
 
 // object
-print('<br/>');
 product = {};
 product.price = 4.00;
 product.num = 3;
-print(totalPrice(product.price, product.num));
+print(totalPrice(product.price, product.num) + "<br>");
+print('<br/>');
 
 // 对象 方法
+var io = new Object();
+io.print = print;
+io.print("a obejct with function" + "<br>");
+io.print(typeof io + "<br>");
+io.print(typeof io.print + "<br>");
 print('<br/>');
-var IO = new Object();
-IO.print = print;
-IO.print("a obejct with function");
-IO.print(typeof IO.print);
 
-// 对象 方法 属性
-print('<br/>');
-var Person = { name: "phodal", weight: 50, height: 166 };
-function dream() {
-    future;
+// 对象 方法 属性 实例
+var Person = function() {
+    this.name = "phodal";
+    this.weight = 50;
+    this.height = 166
+    this.future = function dream() {
+        return "future"
+    }
 };
-Person.future = dream;
-print(typeof Person)
-print(Person.future);
+var person = new Person();
+print(person + "<br>");
+print(person.name + "<br>");
+print(person.future + "<br>")
+print(typeof person + "<br>");
+print(typeof person.future + "<br>");
+print('<br/>');
