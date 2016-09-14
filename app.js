@@ -72,3 +72,7 @@ country.code = "HK";
 print(person2.name + person2.code + "<br>");
 print(person3.name + person3.code + "<br>");
 print('<br/>');
+
+
+var para = document.getElementById("para");
+para.style.color = "blue";
