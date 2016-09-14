@@ -35,15 +35,15 @@ io.print(typeof io.print + "<br>");
 print('<br/>');
 
 // 对象 方法 属性 实例
-var Person = function() {
-    this.name = "phodal";
-    this.weight = 50;
-    this.height = 166
+var Person = function(name, weight, height) {
+    this.name = name;
+    this.weight = weight;
+    this.height = height;
     this.future = function dream() {
         return "future"
     }
 };
-var person = new Person();
+var person = new Person("Songwen", 55, 172);
 print(person + "<br>");
 print(person.name + "<br>");
 print(person.future + "<br>")
