@@ -34,7 +34,7 @@ io.print(typeof io + "<br>");
 io.print(typeof io.print + "<br>");
 print('<br/>');
 
-// 对象 方法 属性 实例
+// 对象 方法 属性 实例 可重用
 var Person = function(name, weight, height) {
     this.name = name;
     this.weight = weight;
@@ -49,4 +49,26 @@ print(person.name + "<br>");
 print(person.future + "<br>")
 print(typeof person + "<br>");
 print(typeof person.future + "<br>");
+print('<br/>');
+
+// 连接, 共享, （好无理啊）
+var Country = function() {
+    this.code = "CHN";
+}
+var country = new Country();
+Person.prototype = country;
+var person2 = new Person("Songwen2", 55, 172);
+var person3 = new Person("Songwen3", 55, 172);
+print(person2.name + person2.code + "<br>");
+print(person3.name + person3.code + "<br>");
+country.code = "EN";
+print(person2.name + person2.code + "<br>");
+print(person3.name + person3.code + "<br>");
+person2.code = "TW";
+print(person2.name + person2.code + "<br>");
+print(person3.name + person3.code + "<br>");
+print(country.code + "<br>");
+country.code = "HK";
+print(person2.name + person2.code + "<br>");
+print(person3.name + person3.code + "<br>");
 print('<br/>');
