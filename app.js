@@ -75,4 +75,33 @@ print('<br/>');
 
 
 var para = document.getElementById("para");
-para.style.color = "blue";
+para.style.color = "orange";
+
+
+// 创建 XMLHttpRequest 对象
+var xmlhttp;
+try {
+    // code for IE7+, Firefox, Chrome, Opera, Safari
+    xmlhttp = new XMLHttpRequest();
+} catch (e) {
+    // code for IE6, IE5
+    xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+}
+// 每次改变 readyState，都会调用该方法
+xmlhttp.onreadystatechange = function() {
+    //print(xmlhttp.readyState);
+    //print(xmlhttp.status);
+    //print(xmlhttp.responseText);
+
+    if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+        // AJAX 请求成功，处理响应数据
+        document.getElementById("para").innerHTML = xmlhttp.responseText;
+        document.getElementById("para").style.color = "green";
+    }
+
+}
+
+// 初始化请求参数
+xmlhttp.open("POST", "http://music.163.com/api/search/get/1111", true);
+// 发送请求
+xmlhttp.send();
