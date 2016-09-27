@@ -8,4 +8,7 @@
 |Node.js|Node.js练习|
 |PHP|PHP练习|
 |thinkphp|thinkphp框架练习|
-|xiaochenxu|微信小程序练习|
+
+环境: 微信开发工具
+|weapp-demo|微信小程序|
+|weapp-quick|微信小程序|
