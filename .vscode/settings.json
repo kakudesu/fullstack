@@ -1,0 +1,15 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Remote",
+            "type": "javascript",
+            "request": "attach",
+            "host": "dingsoung.tk",
+            "port": 22,
+            "localRoot": "${workspaceRoot}",
+            "remoteRoot": "~/"
+        }
+    ]
+}
