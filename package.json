@@ -1,0 +1,19 @@
+{
+  "name": "lesson2",
+  "version": "1.0.0",
+  "description": "环境: LNAMP",
+  "main": "Node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://DingSoung@gitlab.com/DingSoung/FullStack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/DingSoung/FullStack/issues"
+  },
+  "homepage": "https://gitlab.com/DingSoung/FullStack#README"
+}
