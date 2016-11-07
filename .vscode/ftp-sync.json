@@ -1,0 +1,15 @@
+{
+    "remotePath": "~/FullStack",
+    "host": "dingsoung.tk",
+    "username": "admin",
+    "password": "syaqyl",
+    "port": 22,
+    "protocol": "ftp",
+    "uploadOnSave": false,
+    "passive": false,
+    "debug": false,
+    "privateKeyPath": null,
+    "ignore": [
+        "\\.vscode",
+    ]
+}
