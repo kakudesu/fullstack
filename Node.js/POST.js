@@ -1,5 +1,6 @@
 var http = require('http');
 var querystring = require('querystring');
+var util = require('util');
 
 http.createServer(function(req, res) {
     //req.setEncoding('utf-8');
@@ -11,8 +12,8 @@ http.createServer(function(req, res) {
     // 数据接收完毕, 执行回调函数
     req.on("end", function() {
         var result = querystring.parse(postData); //解析 HEADER 中的数据
-        
+
         res.writeHead(200, { 'Content-Type': 'text/plain' });
-        res.end(result);
+        res.end(util.inspect(result));
     });
 }).listen(3000);
