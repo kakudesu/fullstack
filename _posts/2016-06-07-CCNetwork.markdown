@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Reachability
-date: 2016-12-07 00:00:00.000000000 +08:00
+title: CCNetwork
+date: 2016-06-07 00:00:00.000000000 +08:00
 ---
 
-`Reachability`Swift版的监听网络状态的工具，苹果官方有一个OC版本，但是对于Swift工程用户来讲并不太好用，本工程借口与苹果官方的基本一致，并完全兼容OC
+`CCNetwork`是一个基于iOS底层API写的一套轻量级HTTP网络请求库，能够完成基本的GET、POST等功能，并支暴露请求task和request，让持用户能够高度自定义缓存机制、任务队列等（后期会陆续增强任务管理，增加download等功能）
 <center>
-<div class="github-card" data-user="DingSoung" data-repo="Reachability" data-width=100% data-height="177"></div>
+<div class="github-card" data-user="DingSoung" data-repo="CCNetwork" data-width=100% data-height="177"></div>
 </center>
