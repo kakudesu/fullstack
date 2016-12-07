@@ -28,13 +28,6 @@ page_nav:
   - name: 博客
     url: /archives/
     target_blank: false # 不在新页面打开
-  - name: 标签
-    url: /tag/
-    target_blank: false
-  - name: 关于
-    url: /about/
-    target_blank: false
-
 page_nav_style: CIRCLE  # CIRCLE|ROUND_RECT
 
 # 面包屑
