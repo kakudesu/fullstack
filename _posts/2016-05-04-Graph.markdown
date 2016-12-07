@@ -1,0 +1,11 @@
+---
+layout: post
+title: CCGraph
+date: 2016-05-04 00:00:00.000000000 +08:00
+---
+
+`Graph`的几个DEMO动画使用到了`Core Graphics`绘图，`UIBezierPath`,同时利用`CADisplayLink`保持频率刷新率一只，实现动画效果，`BaseView`是一个简单的动画基础类，定义好了这样的动画生命周期，包括动画时间，帧率，每一帧的绘制内容，以及动画进度等等。  
+在研究iOS绘图性能中，我总结了QuartZ 2D会特的类型，代码特点，与UIKit绘图的生命周期，以及在异步线程上执行的特点，以灵活应对绘图实时性和流畅度等多种场景的需求。
+<center>
+<div class="github-card" data-user="DingSoung" data-repo="Graph" data-width=100% data-height="177"></div>
+</center>
