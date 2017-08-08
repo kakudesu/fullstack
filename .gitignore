@@ -16,3 +16,7 @@ node_modules/
 public/
 .deploy/
 source/
+
+
+# typecho.git
+typecho/
