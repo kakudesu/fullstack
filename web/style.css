@@ -9,23 +9,17 @@
     text-align: left;
 }
 
-
 /*层叠样式 给para一个新的颜色*/
-
 p.para {
     color: #F0F;
 }
 
-
 /*给所有的p居中*/
-
 p {
     text-align: center;
 }
 
-
 /*复合型选择器*/
-
 div#content p {
     font-size: 22px;
 }
