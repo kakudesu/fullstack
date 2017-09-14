@@ -1,0 +1,500 @@
+/*   
+Theme Name: Colorful Code
+Description: A clear and simple theme.
+Author: Michael Ting (dsw248)
+Author URI: http://dsw248.tk
+Tags: white, blue, red, two-columns
+Version: 1.0
+*/
+    .imgl {
+	border:0;
+	float:left;
+	margin:0;
+	padding:5px;
+}
+.imgr {
+	border:0;
+	float:right;
+	margin:0;
+	padding:5px;
+}
+.post {
+	clear:both;
+	padding: 20px 12px 0;
+}
+.post-date {
+	box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
+	width: 50px;
+	height: 50px;
+	float:left;
+}
+.post-month {
+	font-size: 11px;
+	font-family: "Helvetica Neue",Helvetica,STheiti,"Microsoft YaHei",Arial,Tahoma,sans-serif,serif;
+	text-transform: uppercase;
+	color: #fff;
+	text-align: center;
+	display:block;
+	padding: 2px;
+	background-color: rgb(0, 169, 211);
+	border: 1px solid #3079ED;
+}
+.post-day {
+	font-size: 11px;
+	font-family: "Helvetica Neue",Helvetica,STheiti,"Microsoft YaHei",Arial,Tahoma,sans-serif,serif;
+	text-transform: uppercase;
+	color: #3d3d3d;
+	text-align: center;
+	display:block;
+	background-color: #F4F4F4;
+	background-image: -webkit-linear-gradient(top, white, #F4F4F4);
+	background-image: -moz-linear-gradient(top, white, #F4F4F4);
+	background-image: -ms-linear-gradient(top, white, #F4F4F4);
+	background-image: -o-linear-gradient(top, white, #F4F4F4);
+ background-image: linear-gradient(top, white, #F4F4F4) border-bottom: 1px dotted #F4F4F4;
+	padding:2px;
+	line-height:11px;
+}
+.clear {
+	clear:both;
+	height:1px;
+}
+.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.alignleft {
+	float: left;
+}
+.alignright {
+	float: right;
+}
+body {
+	margin: 0px;
+	-webkit-background-size: 100% 100%;
+	/*background: url("/wp-content/themes/Colorful-Code/images/background.jpg")fixed left top;*/
+	background:#FFF;
+}
+form {
+	display: inline;
+}
+#hd {
+	padding-right: 5%;
+	padding-left: 5%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, .3);
+	-webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, .3);
+ background:rgba(255, 255, 255, 1) border-color: #CCC;
+	margin-bottom: 20px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #e0e0e0;
+}
+#wrapper {
+	width: 90%;
+	min-width:800px;
+}
+#blogtitle h1 {
+	display: inline;
+	-webkit-transition:all 0.5s;
+	transition:all 0.5s;
+}
+#blogtitle h1 :hover {
+	-webkit-transform:scale(1.2);
+	transform:scale(1.2);
+}
+#blogtitle h1 a {
+	color: rgb(255, 128, 128);
+	font-size: 48px;
+	font-weight: bold;
+	font-family: "Helvetica Neue",Helvetica,STheiti,"Microsoft YaHei",Arial,Tahoma,sans-serif,serif;
+	text-decoration: none;
+	text-shadow: 3px 3px 12px #555;
+}
+#blogdescription {
+	color: rgb(0, 169, 211);
+	font-family: "Helvetica Neue",Helvetica,STheiti,"Microsoft YaHei",Arial,Tahoma,sans-serif,serif;
+	font-size: 13px;
+	padding-right: 8px;
+	position: relative;
+	padding-left: 80px;
+}
+#menu {
+	display: inline;
+	padding-top: 10px;
+}
+#menu ul {
+	list-style:none outside;
+	margin: 0px;
+	padding: 0px;
+}
+#menu ul li {
+	float: left;
+	-webkit-transition:all 0.5s;
+	transition:all 0.5s;
+}
+#menu ul li:hover {
+	-webkit-transform:scale(1.2);
+	transform:scale(1.2);/*rotate(3660deg) 旋转360*/
+}
+#menu ul li a {
+	color:rgb(0, 169, 211);
+	padding-right: 12px;
+	padding-left: 12px;
+	margin-right: 1px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	text-decoration: none;
+	font-family: "Helvetica Neue",Helvetica,STheiti,"Microsoft YaHei",Arial,Tahoma,sans-serif,serif;
+	font-size: 16px;
+	font-weight: bold;
+	border-color: #CCC;
+	border-style: solid;
+	border-width: 1px;
+	position: relative;
+	background: rgba(255, 255, 255, 1);
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, .2);
+	-webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, .2);
+}
+#menu ul li a:hover {
+	color: rgb(0, 169, 211);
+}
+#menu_page {
+	float: right;
+	margin-right: 16px;
+}
+#sitemeta {
+	float: right;
+	font-size: 12px;
+	text-decoration: none;
+}
+#sitemeta ul {
+	list-style: none;
+	display: inline;
+	text-decoration: none;
+}
+#sitemeta li {
+	float: left;
+	text-decoration: none;
+	margin: 0 0 0 10px;
+}
+#sitemeta a {
+	color: #252525;
+	text-decoration: none;
+}
+#sitemeta a:hover {
+	color: rgb(0, 169, 211);
+	text-decoration: none;
+}
+#meta li.rss {
+	padding: 0 0 0 15px;
+	background: url(images/rss-icon.gif) no-repeat left center;
+}
+/*这个下面的是页面*/
+#bd {
+	width: auto;
+}
+/*这个下面的是文章列表*/
+#content {
+	margin-right:290px;
+	padding-bottom: 12px;
+	width:auto;
+}
+.single {
+	margin-right: 290px
+}
+#sidebar {
+	width: 270px;
+	float: right;
+	margin-left: 20px;
+	text-align:left;
+}
+#sidebar ul {
+	padding-left: 16px;
+}
+#sidebar ul li {
+	display: block;
+}
+#sidebar ul li ul {
+	list-style:none outside;
+}
+li.vategories ul {
+	list-style:none outside;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#sidebar ul li ul li {
+	margin-top: 4px;
+	display: block;
+}
+#sidebar a {
+	color: #505050;
+	text-decoration: none;
+	font-size: 11pt;
+	font-family: "Helvetica Neue",Helvetica,STheiti,"Microsoft YaHei",Arial,Tahoma,sans-serif,serif;
+}
+#sidebar h2 {
+	font-size: 12pt;
+	font-weight: bold;
+	text-decoration: none;
+	display: inline;
+}
+#aboutme a {
+	color: rgb(0, 169, 211);
+	text-decoration: none;
+}
+.widget {
+	margin-bottom: 32px;
+}
+.date {
+	width: 50px;
+	height: 80px;
+	text-align:center;
+	font-size: 9pt;
+	font-family: "Helvetica Neue",Helvetica,STheiti,"Microsoft YaHei",Arial,Tahoma,sans-serif,serif;
+	background: url(images/background_date_grad.png) no-repeat;
+	float: left;
+	color: #ffffff;
+	padding: 8px 0px;
+}
+.date .day {
+	font-size: 14pt;
+}
+.post-wrap {
+	margin-left: 70px;
+}
+#commentwrap {
+	margin-left: 70px;
+}
+#respond {
+	padding-top: 10px;
+}
+.story-content {
+	text-align: justify;
+	text-decoration: none;
+	font-family: "Helvetica Neue",Helvetica,STheiti,"Microsoft YaHei",Arial,Tahoma,sans-serif,serif;
+	color: #141F40;
+	
+	border-color: #CCC;
+	border-style: solid;
+	border-width: 1px;
+	position: relative;
+	padding: 16px;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	background:rgba(255, 255, 255, 1);/*background-color: #FFF;opacity:0.7;*/
+	/*text-shadow: 0 0 4px #FFF;*/
+	
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, .2);
+	-webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, .2);
+	width: auto;
+}
+.story-content:hover {
+	box-shadow: 1px 1px 16px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 1px 1px 16px rgba(0, 0, 0, 0.3);/*
+	background:rgba(255, 255, 255, 0.9);
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	*/
+}
+.post-title {
+	font-size: 21px;
+	color: rgb(0, 169, 211);
+	cursor: auto;
+	font-weight: bold;
+}
+.post-title a {
+	font-size: 21px;
+	color: rgb(0, 169, 211);
+	cursor: auto;
+	text-decoration: none;
+}
+#yui-main{
+}
+#yui-main a{
+	color: rgba(0, 153, 255, 1);
+}
+
+#yui-main h1 {
+	font-size: 19px;
+	font-weight: bold;
+}
+#yui-main h1 a {
+	
+}
+#yui-main h1 a:hover {
+}
+
+#yui-main h2 {
+	font-size: 17px;
+	font-weight: bold;
+}
+#yui-main h2 a {
+}
+#yui-main h3 {
+	font-size: 15px;
+	font-weight: bold;
+}
+#yui-main h3 a {
+}
+
+p {
+	font-size: 16px;
+	margin-top: 8px;
+	margin-bottom: 16px;
+}
+
+pre {
+	font-size: 16px;
+	text-align: left;
+	margin-bottom: 16px;
+	
+	word-wrap: break-word;
+}
+
+.blocks {
+	max-width:260px;
+	display:inline-block;
+	background: rgba(255, 255, 255, 0.9);
+	margin: 8px;
+}
+.post-meta {
+	padding-top: 10px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #e0e0e0;
+}
+blockquote {
+	margin: 10px;
+	font-size: 10pt;
+	font-family: "Helvetica Neue",Helvetica,STheiti,"Microsoft YaHei",Arial,Tahoma,sans-serif,serif;
+	padding: 10px;
+	border: 1px dashed rgb(0, 169, 211);
+	background:#fafafa;
+}
+blockquote p {
+	padding: 0px;
+	margin: 0px;
+}
+cite {
+	font-weight: bold;
+	font-style: normal;
+	margin-left: 4px;
+}
+#author, #email, #url, #comment {
+	border: 1px solid #bdc1a3;
+	font-size: 8pt;
+	background:#ffffff;
+	padding: 5px;
+	color: #363636;
+	font-family: "Helvetica Neue",Helvetica,STheiti,"Microsoft YaHei",Arial,Tahoma,sans-serif,serif;
+	width:auto;
+	min-width: 440px;/*800-290-70*/
+	opacity:0.8;
+}
+#author, #email, #url, #comment:hover {
+	opacity:1;
+}
+.s {
+	border: 1px solid #bdc1a3;
+	font-size: 8pt;
+	background:#ffffff;
+	color: #363636;
+	font-family: "Helvetica Neue",Helvetica,STheiti,"Microsoft YaHei",Arial,Tahoma,sans-serif,serif;
+	width: 180px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+#submit, #searchsubmit {
+	font-size: 12px;
+	background-color: rgb(0, 169, 211);
+	border: 1px solid #3079ED;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	color: #FFF;
+	-webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, .2);
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, .2);
+}
+.previous, .next {
+}
+.searchresults ul {
+	list-style: none;
+	display: inline;
+}
+.categories ul {
+	list-style: none;
+	display: inline;
+}
+.archives ul {
+	list-style: none;
+	display: inline;
+}
+dl, dd, dt {
+	margin: 0px;
+}
+#shangxia {
+	position: fixed;
+	float: left;
+}
+#shang, #comt, #xia {
+	background: url(images/huadong.png) no-repeat;
+	position: relative;
+	cursor: pointer;
+	height: 25px;
+	width: 29px;
+	margin: 10px 0 0;
+}
+#comt {
+	background-position: center -30px;
+	height: 32px;
+}
+#xia {
+	background-position: center -68px;
+}
+#footnote a {
+	color: rgb(0, 169, 211);
+	text-decoration: none;
+}
+.post-content {
+	clear: both;
+	padding: 10px 0 10px 0;
+	margin: 0;
+}
+.pagination {
+	padding:4px;
+	box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
+	background-color: #F8F8F8;
+	background-image: -webkit-linear-gradient(top, #F8F8F8, #F1F1F1);
+	background-image: linear-gradient(top, #F8F8F8, #F1F1F1);
+}
+.pagination a:link, .pagination a:visited {
+	text-align:center;
+	padding-right:4px;
+	padding-left:4px;
+	color: #505050;
+	font-size: 14px;
+	font-family: "Helvetica Neue",Helvetica,STheiti,"Microsoft YaHei",Arial,Tahoma,sans-serif,serif;
+	text-decoration: none;
+	width: auto;
+}
+.pagination a:hover {
+	text-decoration: underline;
+}
+.pagination a.current {
+	margin: 0 2px 5px 2px;
+	padding: 2px 4px;
+	background-color: #0066dd;
+	color: #fff;
+	text-align: center;
+	font-size: 14px;
+}
+.pagination .extend {
+	margin: 0 2px 5px 0;
+	padding: 0 3px 5px 3px;
+	text-align: center;
+	font-size: 14px;
+}
