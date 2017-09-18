@@ -1,0 +1,11 @@
+---
+layout: post
+title: PDFImage
+date: 2016-03-02 00:00:00.000000000 +08:00
+---
+在iOS开发中，为了确保图标清晰，往往对使用PNG图片，2x 3x各一份，这样不可避免的就会导致程序体积过大。`PDFImagecom`能很好的解决这个问题，使用一份PDF文件即代替所有尺寸的PNG图片，并且能无损失的充分利用屏幕每一个像素显示图像，清晰度远远超过PNG。  
+此外，`PDFImage`支持内存缓存，空间能更加快速的加载复用的图片，并节省内存开销，同时渲染图片支持异步线程，能有效避免占用主线程资源造成卡顿。
+<center>
+<div class="github-card" data-user="DingSoung" data-repo="PDFImage" data-width=100% data-height="177"></div>
+</center>
+
