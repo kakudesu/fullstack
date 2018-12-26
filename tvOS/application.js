@@ -30,11 +30,13 @@
  * The location attribute is automatically added to the object and represents 
  * the URL that was used to retrieve the application JavaScript.
  */
+
+
 App.onLaunch = function (options) {
-  var alert = createCompilation();
-  //createCatalog();
-  //createAlert('Hello World!', 'Welcome to tvOS')
-  navigationDocument.pushDocument(alert)
+   console.log(options);
+   loadingDocument();
+   var templateURL = options.BASEURL + "/catalog.xml";
+   getDocument(templateURL);
 }
 
 App.onWillResignActive = function () {}
@@ -47,6 +49,28 @@ App.onDidBecomeActive = function () {}
 
 App.onWillTerminate = function () {}
 
+
+function pushDocument(document) {
+   navigationDocument.pushDocument(document);
+}
+
+function getDocument(url) {
+   var templateXHR = new XMLHttpRequest();
+   templateXHR.responseType = "document";
+   templateXHR.addEventListener("load", function() {
+      console.log(templateXHR);
+      pushDocument(templateXHR.responseXML);
+   }, false);
+   templateXHR.open("GET", url, true);
+   templateXHR.send();
+}
+
+function loadingDocument() {
+   var template = '<document><loadingTemplate><activityIndicator><text>Loading</text></activityIndicator></loadingTemplate></document>';
+   var templateParser = new DOMParser();
+   var parsedTemplate = templateParser.parseFromString(template, "application/xml");
+   pushDocument(parsedTemplate);
+}
 /**
  * This convenience funnction returns an alert template, which can be used to present errors to the user.
  */
@@ -66,87 +90,11 @@ var createAlert = function (title, description) {
   return alertDoc
 }
 
-var createCatalog = function () {
-  var alertString = `<?xml version="1.0" encoding="UTF-8" ?>
-  <document>
-  <catalogTemplate>
-     <banner>
-        <title>Movies</title>
-     </banner>
-     <list>
-        <section>
-           <listItemLockup>
-              <title>All Movies</title>
-              <decorationLabel>6</decorationLabel>
-              <relatedContent>
-                 <grid>
-                    <section>
-                       <lockup>
-                          <img src="path to images on your server/Car_Movie_250x375_A.png" width="250" height="376" />
-                          <title>Movie 1</title>
-                       </lockup>
-                       <lockup>
-                          <img src="path to images on your server/Car_Movie_250x375_B.png" width="250" height="376" />
-                          <title>Movie 2</title>
-                       </lockup>
-                       <lockup>
-                          <img src="path to images on your server/Car_Movie_250x375_C.png" width="250" height="376" />
-                          <title>Movie 3</title>
-                       </lockup>
-                       <lockup>
-                          <img src="path to images on your server/Car_Movie_250x375.png" width="250" height="376" />
-                          <title>Movie 4</title>
-                       </lockup>
-                       <lockup>
-                          <img src="path to images on your server/Car_Movie_250x375_C.png" width="250" height="376" />
-                          <title>Movie 5</title>
-                       </lockup>
-                       <lockup>
-                          <img src="path to images on your server/Car_Movie_250x375.png" width="250" height="376" />
-                          <title>Movie 6</title>
-                       </lockup>
-                    </section>
-                 </grid>
-              </relatedContent>
-           </listItemLockup>
-           <listItemLockup>
-              <title>Comedies</title>
-              <decorationLabel>4</decorationLabel>
-              <relatedContent>
-                 <grid>
-                    <section>
-                       <lockup>
-                          <img src="path to images on your server/Car_Movie_250x375_B.png" width="250" height="376" />
-                          <title>Movie 2</title>
-                       </lockup>
-                       <lockup>
-                          <img src="path to images on your server/Car_Movie_250x375_A.png" width="250" height="376" />
-                          <title>Movie 1</title>
-                       </lockup>
-                       <lockup>
-                          <img src="path to images on your server/Car_Movie_250x375.png" width="250" height="376" />
-                          <title>Movie 4</title>
-                       </lockup>
-                       <lockup>
-                          <img src="path to images on your server/Car_Movie_250x375_C.png" width="250" height="376" />
-                          <title>Movie 3</title>
-                       </lockup>
-                    </section>
-                 </grid>
-              </relatedContent>
-           </listItemLockup>
-        </section>
-     </list>
-  </catalogTemplate>
-</document>
-   `
 
-  var parser = new DOMParser()
 
-  var alertDoc = parser.parseFromString(alertString, 'application/xml')
 
-  return alertDoc
-}
+
+
 
 var createCompilation = function () {
    var alertString = `<?xml version="1.0" encoding="UTF-8" ?>
@@ -214,22 +162,6 @@ var createCompilation = function () {
        </list>
    </compilationTemplate>
 </document>`
- 
-   var parser = new DOMParser()
- 
-   var alertDoc = parser.parseFromString(alertString, 'application/xml')
- 
-   return alertDoc
- }
-
- var createAlert = function (title, description) {
-   var alertString = `<?xml version="1.0" encoding="UTF-8" ?>
-         <document>
-           <alertTemplate>
-             <title>${title}</title>
-             <description>${description}</description>
-           </alertTemplate>
-         </document>`
  
    var parser = new DOMParser()
  
