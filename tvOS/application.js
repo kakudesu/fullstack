@@ -1,4 +1,4 @@
-//# sourceURL=application.js
+// # sourceURL=application.js
 
 //
 //  application.js
@@ -30,39 +30,28 @@
  * The location attribute is automatically added to the object and represents 
  * the URL that was used to retrieve the application JavaScript.
  */
-App.onLaunch = function(options) {
-    var alert = createAlert("Hello World!", "Welcome to tvOS");
-    navigationDocument.pushDocument(alert);
+App.onLaunch = function (options) {
+  var alert = createCompilation();
+  //createCatalog();
+  //createAlert('Hello World!', 'Welcome to tvOS')
+  navigationDocument.pushDocument(alert)
 }
 
+App.onWillResignActive = function () {}
 
-App.onWillResignActive = function() {
+App.onDidEnterBackground = function () {}
 
-}
+App.onWillEnterForeground = function () {}
 
-App.onDidEnterBackground = function() {
+App.onDidBecomeActive = function () {}
 
-}
-
-App.onWillEnterForeground = function() {
-    
-}
-
-App.onDidBecomeActive = function() {
-    
-}
-
-App.onWillTerminate = function() {
-    
-}
-
+App.onWillTerminate = function () {}
 
 /**
  * This convenience funnction returns an alert template, which can be used to present errors to the user.
  */
-var createAlert = function(title, description) {
-
-    var alertString = `<?xml version="1.0" encoding="UTF-8" ?>
+var createAlert = function (title, description) {
+  var alertString = `<?xml version="1.0" encoding="UTF-8" ?>
         <document>
           <alertTemplate>
             <title>${title}</title>
@@ -70,10 +59,181 @@ var createAlert = function(title, description) {
           </alertTemplate>
         </document>`
 
-    var parser = new DOMParser();
+  var parser = new DOMParser()
 
-    var alertDoc = parser.parseFromString(alertString, "application/xml");
+  var alertDoc = parser.parseFromString(alertString, 'application/xml')
 
-    return alertDoc
+  return alertDoc
 }
 
+var createCatalog = function () {
+  var alertString = `<?xml version="1.0" encoding="UTF-8" ?>
+  <document>
+  <catalogTemplate>
+     <banner>
+        <title>Movies</title>
+     </banner>
+     <list>
+        <section>
+           <listItemLockup>
+              <title>All Movies</title>
+              <decorationLabel>6</decorationLabel>
+              <relatedContent>
+                 <grid>
+                    <section>
+                       <lockup>
+                          <img src="path to images on your server/Car_Movie_250x375_A.png" width="250" height="376" />
+                          <title>Movie 1</title>
+                       </lockup>
+                       <lockup>
+                          <img src="path to images on your server/Car_Movie_250x375_B.png" width="250" height="376" />
+                          <title>Movie 2</title>
+                       </lockup>
+                       <lockup>
+                          <img src="path to images on your server/Car_Movie_250x375_C.png" width="250" height="376" />
+                          <title>Movie 3</title>
+                       </lockup>
+                       <lockup>
+                          <img src="path to images on your server/Car_Movie_250x375.png" width="250" height="376" />
+                          <title>Movie 4</title>
+                       </lockup>
+                       <lockup>
+                          <img src="path to images on your server/Car_Movie_250x375_C.png" width="250" height="376" />
+                          <title>Movie 5</title>
+                       </lockup>
+                       <lockup>
+                          <img src="path to images on your server/Car_Movie_250x375.png" width="250" height="376" />
+                          <title>Movie 6</title>
+                       </lockup>
+                    </section>
+                 </grid>
+              </relatedContent>
+           </listItemLockup>
+           <listItemLockup>
+              <title>Comedies</title>
+              <decorationLabel>4</decorationLabel>
+              <relatedContent>
+                 <grid>
+                    <section>
+                       <lockup>
+                          <img src="path to images on your server/Car_Movie_250x375_B.png" width="250" height="376" />
+                          <title>Movie 2</title>
+                       </lockup>
+                       <lockup>
+                          <img src="path to images on your server/Car_Movie_250x375_A.png" width="250" height="376" />
+                          <title>Movie 1</title>
+                       </lockup>
+                       <lockup>
+                          <img src="path to images on your server/Car_Movie_250x375.png" width="250" height="376" />
+                          <title>Movie 4</title>
+                       </lockup>
+                       <lockup>
+                          <img src="path to images on your server/Car_Movie_250x375_C.png" width="250" height="376" />
+                          <title>Movie 3</title>
+                       </lockup>
+                    </section>
+                 </grid>
+              </relatedContent>
+           </listItemLockup>
+        </section>
+     </list>
+  </catalogTemplate>
+</document>
+   `
+
+  var parser = new DOMParser()
+
+  var alertDoc = parser.parseFromString(alertString, 'application/xml')
+
+  return alertDoc
+}
+
+var createCompilation = function () {
+   var alertString = `<?xml version="1.0" encoding="UTF-8" ?>
+   <document>
+   <compilationTemplate theme="light">
+       <list>
+           <relatedContent>
+               <itemBanner>
+                   <heroImg src="path to images on your server/Car_Movie_720x1080" />
+                   <row>
+                       <buttonLockup>
+                           <badge src="resource://button-add"/>
+                           <title>Add</title>
+                       </buttonLockup>
+                       <buttonLockup>
+                           <badge src="resource://button-rate"/>
+                           <title>Rate</title>
+                       </buttonLockup>
+                       <buttonLockup>
+                           <badge src="resource://button-shuffle"/>
+                           <title>Shuffle</title>
+                       </buttonLockup>
+                   </row>
+               </itemBanner>
+           </relatedContent>
+           <header>
+               <title>WWDC Roadtrip Soundtrack</title>
+               <subtitle>Various Artists</subtitle>
+               <row>
+                   <text>Instrumental</text>
+                   <text>5 Songs</text>
+                   <text>2015</text>
+               </row>
+           </header>
+           <section>
+               <description>Songs from your favorite movie</description>
+           </section>
+           <section>
+               <listItemLockup>
+                   <ordinal minLength="2">1</ordinal>
+                   <title>Opening sequence</title>
+                   <decorationLabel>11:14</decorationLabel>
+               </listItemLockup>
+               <listItemLockup>
+                   <ordinal minLength="2">2</ordinal>
+                   <title>Fight song</title>
+                   <decorationLabel>3:47</decorationLabel>
+               </listItemLockup>
+               <listItemLockup>
+                   <ordinal minLength="2">3</ordinal>
+                   <title>Love theme</title>
+                   <decorationLabel>6:48</decorationLabel>
+               </listItemLockup>
+               <listItemLockup>
+                   <ordinal minLength="2">4</ordinal>
+                   <title>Car chase</title>
+                   <decorationLabel>5:21</decorationLabel>
+               </listItemLockup>
+               <listItemLockup>
+                   <ordinal minLength="2">5</ordinal>
+                   <title>End credit theme</title>
+                   <decorationLabel>8:03</decorationLabel>
+               </listItemLockup>
+           </section>
+       </list>
+   </compilationTemplate>
+</document>`
+ 
+   var parser = new DOMParser()
+ 
+   var alertDoc = parser.parseFromString(alertString, 'application/xml')
+ 
+   return alertDoc
+ }
+
+ var createAlert = function (title, description) {
+   var alertString = `<?xml version="1.0" encoding="UTF-8" ?>
+         <document>
+           <alertTemplate>
+             <title>${title}</title>
+             <description>${description}</description>
+           </alertTemplate>
+         </document>`
+ 
+   var parser = new DOMParser()
+ 
+   var alertDoc = parser.parseFromString(alertString, 'application/xml')
+ 
+   return alertDoc
+ }

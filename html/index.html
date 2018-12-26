@@ -15,16 +15,9 @@
 </head>
 
 <body>
-    <!--
-        <div id="background"></div>
-        <script>
-            $("#background").load("sakura/index.html");
-        </script>
-    -->
-    <noscript>disable Javascript</noscript>
 
     <section id="main">
-        <h1>这里是 Songwen's 主页</h1>
+        <h1 id="h1" onclick="changetext(this)">主页</h1>
         <ul>
             <li>✉️ DingSoung@gmail.com</li>
             <li>📱 +1(616)666-6843</li>
@@ -37,14 +30,23 @@
             <li><a href="https://book.dingsoung.tk/">开发相关的文章笔记</a></li>
         </ul>
         <h2>
-            <p>关于本站</p>
+            <p onclick="addDom()">关于本站</p>
         </h2>
-        <ul>
+        <ul id="url2">
             <p>本站全站https</p>
             <p>访问本站520端口可以查看共享文件目录</p>
-            <p>本站服务器共享SS账号:DingSoung.tk:1324 aaaaaa aes-256-cfb</p>
         </ul>
     </section>
+
+    <script>
+            //h1=document.getElementById("h1");
+            //document.write('<h1 id="h1">这是 Songwen 的主页 </h1>');
+            var h1 = document.getElementById("h1");
+            h1.innerHTML = "这是 Songwen 的主页";
+    </script>
+
+    <noscript>disable Javascript</noscript>
+    
     <a href="/GoogleMap">Google地图</a>
 </body>
 
