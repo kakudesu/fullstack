@@ -1,0 +1,19 @@
+[
+    {
+        "type": "artwork", 
+        "ID": "00", 
+        "url": "images/Beach_Movie_HiRes/Beach_Movie_250x375_A.png", 
+        "title": "Surf's Up!"},
+    {
+        "type": "artwork", 
+        "ID": "01", 
+        "url": "images/Beach_Movie_HiRes/Beach_Movie_250x375_B.png", 
+        "title": "Wipe Out!"
+    },
+    {
+        "type": "artwork", 
+        "ID": "01", 
+        "url": "images/Beach_Movie_HiRes/Beach_Movie_250x375_C.png", 
+        "title": "Relaxing"
+    }
+]

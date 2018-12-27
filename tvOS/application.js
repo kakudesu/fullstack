@@ -42,7 +42,7 @@ App.onLaunch = function (options) {
       console.log("success");
    });
    */
-   getRemoteDocument("templates/image.json", function(request) {
+   getRemoteDocument("templates/images.json", function(request) {
       parseJson(request.responseText);
    });
 }
@@ -101,19 +101,7 @@ function loadingDocument() {
 }
 
 function parseJson(information) {
-   var result = JSON.parse(information);
-   var movies;
-   for(i = 0; i < result.length; i++) {
-       movies += `
-       <lockup>
-            <img src='${result[i].url}' width="182" height="274"/>
-            <title>${result[i].title}</title>
-      </lockup>
-      `;
-   }
-   console.log(movies);
-
-   var template = `<?xml version="1.0" encoding="UTF-8" ?>
+   var str = `<?xml version="1.0" encoding="UTF-8" ?>
    <document>
       <stackTemplate>
          <banner>
@@ -121,17 +109,32 @@ function parseJson(information) {
          </banner>
          <collectionList>
             <shelf>
-               <section>
-                  ${movies}
-               </section>
+               <prototypes>
+                  <lockup prototype="artwork">
+                     <img binding="@src:{url};" width="200" height="300"/>
+                     <title binding="textContent:{title};" />
+                  </lockup>
+               </prototypes>
+               <section binding="items:{images};" />
             </shelf>
          </collectionList>
       </stackTemplate>
    </document>`;
-   console.log(template);
-   var templateParser = new DOMParser();
-   var parsedTemplate = templateParser.parseFromString(template, "application/xml");
-   navigationDocument.pushDocument(parsedTemplate);
+   var parser = new DOMParser()
+   var doc = parser.parseFromString(str, "application/xml")
+   navigationDocument.pushDocument(doc)
+
+   var results = JSON.parse(information)
+   let newItems = results.map((result) => {
+      let objectItem = new DataItem(result.type, result.ID)
+      objectItem.url = result.url
+      objectItem.title = result.title
+      return objectItem
+  })
+  let shelf = doc.getElementsByTagName("shelf").item(0)
+  let section = shelf.getElementsByTagName("section").item(0)
+  section.dataItem = new DataItem()
+  section.dataItem.setPropertyPath("images", newItems)
 }
 
 /**
