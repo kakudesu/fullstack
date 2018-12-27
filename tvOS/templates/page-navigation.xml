@@ -2,7 +2,7 @@
     <alertTemplate>
         <title>Welcome to Page Navigation</title>
         <description>This app shows how to navigate between TVML pages.</description>
-        <button onselect="getRemoteDocument('templates/NextPage.xml', function(request) {
+        <button onselect="getRemoteDocument('templates/next-page.xml', function(request) {
             pushDocument(request.responseXML);
             })">
             <text>Next page</text>

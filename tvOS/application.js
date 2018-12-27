@@ -36,9 +36,14 @@ App.onLaunch = function (options) {
    console.log(options);
 
    pushDocument(loadingDocument());
-   getRemoteDocument("templates/PageNavigation.xml", function(request) {
+   /*
+   getRemoteDocument("templates/page-navigation.xml", function(request) {
       replaceDocument(request.responseXML);
       console.log("success");
+   });
+   */
+   getRemoteDocument("templates/image.json", function(request) {
+      parseJson(request.responseText);
    });
 }
 
@@ -69,43 +74,84 @@ function replaceDocument(document) {
 /**
  * Get Remote Doc
  */
-var baseURL;
+var baseURL
 function getRemoteDocument(path, callback) {
-   var request = new XMLHttpRequest();
-   request.responseType = "document";
+   var request = new XMLHttpRequest()
+   request.responseType = "document"
    request.addEventListener("load", function() {
-      callback(request);
-   }, false);
-   request.open("GET", baseURL + "/" + path, true);
-   request.send();
+      callback(request)
+   }, false)
+   request.open("GET", baseURL + "/" + path, true)
+   request.send()
 }
 
 function loadingDocument() {
-   var template = '<document><loadingTemplate><activityIndicator><text>Loading</text></activityIndicator></loadingTemplate></document>';
-   var templateParser = new DOMParser();
-   return templateParser.parseFromString(template, "application/xml");
+   var template = `<?xml version="1.0" encoding="UTF-8" ?>
+   <document>
+      <loadingTemplate>
+         <activityIndicator>
+            <text>Loading</text>
+         </activityIndicator>
+      </loadingTemplate>
+   </document>`
+   console.log(template)
+   var parser = new DOMParser()
+   var doc = parser.parseFromString(template, 'application/xml')
+   return doc
 }
+
+function parseJson(information) {
+   var result = JSON.parse(information);
+   var movies;
+   for(i = 0; i < result.length; i++) {
+       movies += `
+       <lockup>
+            <img src='${result[i].url}' width="182" height="274"/>
+            <title>${result[i].title}</title>
+      </lockup>
+      `;
+   }
+   console.log(movies);
+
+   var template = `<?xml version="1.0" encoding="UTF-8" ?>
+   <document>
+      <stackTemplate>
+         <banner>
+            <title>JSON Shelf</title>
+         </banner>
+         <collectionList>
+            <shelf>
+               <section>
+                  ${movies}
+               </section>
+            </shelf>
+         </collectionList>
+      </stackTemplate>
+   </document>`;
+   console.log(template);
+   var templateParser = new DOMParser();
+   var parsedTemplate = templateParser.parseFromString(template, "application/xml");
+   navigationDocument.pushDocument(parsedTemplate);
+}
+
 /**
  * This convenience funnction returns an alert template, which can be used to present errors to the user.
  */
 var createAlert = function (title, description) {
-  var alertString = `<?xml version="1.0" encoding="UTF-8" ?>
-        <document>
-          <alertTemplate>
-            <title>${title}</title>
-            <description>${description}</description>
-          </alertTemplate>
-        </document>`
-
+  var str = `<?xml version="1.0" encoding="UTF-8" ?>
+   <document>
+      <alertTemplate>
+         <title>${title}</title>
+         <description>${description}</description>
+      </alertTemplate>
+   </document>`
   var parser = new DOMParser()
-
-  var alertDoc = parser.parseFromString(alertString, 'application/xml')
-
-  return alertDoc
+  var doc = parser.parseFromString(str, 'application/xml')
+  return doc
 }
 
 var createCompilation = function () {
-   var alertString = `<?xml version="1.0" encoding="UTF-8" ?>
+   var str = `<?xml version="1.0" encoding="UTF-8" ?>
    <document>
    <compilationTemplate theme="light">
        <list>
@@ -169,11 +215,8 @@ var createCompilation = function () {
            </section>
        </list>
    </compilationTemplate>
-</document>`
- 
-   var parser = new DOMParser()
- 
-   var alertDoc = parser.parseFromString(alertString, 'application/xml')
- 
-   return alertDoc
+</document>` 
+var parser = new DOMParser() 
+var doc = parser.parseFromString(str, 'application/xml') 
+return doc
 }
