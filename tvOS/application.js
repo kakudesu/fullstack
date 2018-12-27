@@ -31,12 +31,15 @@
  * the URL that was used to retrieve the application JavaScript.
  */
 
-
 App.onLaunch = function (options) {
+   baseURL = options.BASEURL;
    console.log(options);
-   loadingDocument();
-   var templateURL = options.BASEURL + "/catalog.xml";
-   getDocument(templateURL);
+
+   pushDocument(loadingDocument());
+   getRemoteDocument("templates/PageNavigation.xml", function(request) {
+      replaceDocument(request.responseXML);
+      console.log("success");
+   });
 }
 
 App.onWillResignActive = function () {}
@@ -50,26 +53,37 @@ App.onDidBecomeActive = function () {}
 App.onWillTerminate = function () {}
 
 
+/**
+ * Navigating Pahes
+ */
+
 function pushDocument(document) {
    navigationDocument.pushDocument(document);
 }
 
-function getDocument(url) {
-   var templateXHR = new XMLHttpRequest();
-   templateXHR.responseType = "document";
-   templateXHR.addEventListener("load", function() {
-      console.log(templateXHR);
-      pushDocument(templateXHR.responseXML);
+function replaceDocument(document) {
+   var currentDocument = getActiveDocument();
+   navigationDocument.replaceDocument(document, currentDocument);
+}
+
+/**
+ * Get Remote Doc
+ */
+var baseURL;
+function getRemoteDocument(path, callback) {
+   var request = new XMLHttpRequest();
+   request.responseType = "document";
+   request.addEventListener("load", function() {
+      callback(request);
    }, false);
-   templateXHR.open("GET", url, true);
-   templateXHR.send();
+   request.open("GET", baseURL + "/" + path, true);
+   request.send();
 }
 
 function loadingDocument() {
    var template = '<document><loadingTemplate><activityIndicator><text>Loading</text></activityIndicator></loadingTemplate></document>';
    var templateParser = new DOMParser();
-   var parsedTemplate = templateParser.parseFromString(template, "application/xml");
-   pushDocument(parsedTemplate);
+   return templateParser.parseFromString(template, "application/xml");
 }
 /**
  * This convenience funnction returns an alert template, which can be used to present errors to the user.
@@ -89,12 +103,6 @@ var createAlert = function (title, description) {
 
   return alertDoc
 }
-
-
-
-
-
-
 
 var createCompilation = function () {
    var alertString = `<?xml version="1.0" encoding="UTF-8" ?>
@@ -168,4 +176,4 @@ var createCompilation = function () {
    var alertDoc = parser.parseFromString(alertString, 'application/xml')
  
    return alertDoc
- }
+}
