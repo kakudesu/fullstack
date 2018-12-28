@@ -32,19 +32,23 @@
  */
 
 App.onLaunch = function (options) {
-   baseURL = options.BASEURL;
-   console.log(options);
+   baseURL = options.BASEURL
+   console.log(options)
 
-   pushDocument(loadingDocument());
+   pushDocument(loadingDocument())
+   getRemoteDocument('sources/m3u8.json', function (requst) {
+      var doc = libraryDocument(requst.responseText)
+      pushDocument(doc)
+   })
    /*
-   getRemoteDocument("templates/page-navigation.xml", function(request) {
-      replaceDocument(request.responseXML);
-      console.log("success");
-   });
-   */
+   getRemoteDocument('library/library.xml', function (request) {
+     replaceDocument(request.responseXML)
+     console.log('success')
+   })*/
+   /*
    getRemoteDocument("templates/images.json", function(request) {
-      parseJson(request.responseText);
-   });
+      parseJson(request.responseText)
+   });*/
 }
 
 App.onWillResignActive = function () {}
@@ -57,18 +61,21 @@ App.onDidBecomeActive = function () {}
 
 App.onWillTerminate = function () {}
 
-
 /**
  * Navigating Pahes
  */
 
 function pushDocument(document) {
-   navigationDocument.pushDocument(document);
+   navigationDocument.pushDocument(document)
 }
 
 function replaceDocument(document) {
-   var currentDocument = getActiveDocument();
-   navigationDocument.replaceDocument(document, currentDocument);
+   var currentDocument = getActiveDocument()
+   navigationDocument.replaceDocument(document, currentDocument)
+}
+
+function playVideo(url) {
+   console.log(url)
 }
 
 /**
@@ -77,51 +84,96 @@ function replaceDocument(document) {
 var baseURL
 function getRemoteDocument(path, callback) {
    var request = new XMLHttpRequest()
-   request.responseType = "document"
-   request.addEventListener("load", function() {
+   request.responseType = 'document'
+   request.addEventListener('load', function () {
       callback(request)
    }, false)
-   request.open("GET", baseURL + "/" + path, true)
+   request.open('GET', baseURL + '/' + path, true)
    request.send()
 }
 
+/**
+ * Common Doc
+ */
 function loadingDocument() {
    var template = `<?xml version="1.0" encoding="UTF-8" ?>
-   <document>
-      <loadingTemplate>
-         <activityIndicator>
-            <text>Loading</text>
-         </activityIndicator>
-      </loadingTemplate>
-   </document>`
+    <document>
+       <loadingTemplate>
+          <activityIndicator>
+             <text>Loading</text>
+          </activityIndicator>
+       </loadingTemplate>
+    </document>`
    console.log(template)
    var parser = new DOMParser()
    var doc = parser.parseFromString(template, 'application/xml')
    return doc
 }
 
+function libraryDocument(json) {
+   let res = JSON.parse(json)
+   var sources = ``
+   for (i = 0; i < res.length; i++) {
+      var listItems = ``
+      for (j = 0; j < res[i].list.length; j++) {
+         listItems += `
+          <lockup onselect="playVideo('${res[i].list[j].url}')">
+             <img src="http://b.hiphotos.baidu.com/image/pic/item/6159252dd42a28343dd43e9f56b5c9ea15cebf37.jpg" width="250" height="376" />
+             <title>${res[i].list[j].name}</title>
+          </lockup>`
+      }
+      sources += `
+       <listItemLockup>
+          <title>${res[i].name}</title>
+          <decorationLabel>${res[i].list.length}</decorationLabel>
+          <relatedContent>
+             <grid>
+                <section>${listItems}
+                </section>
+             </grid>
+          </relatedContent>
+       </listItemLockup>`
+   }
+   var str = `<?xml version="1.0" encoding="UTF-8" ?>
+    <document>
+       <catalogTemplate>
+          <banner>
+             <title>在线直播</title>
+          </banner>
+          <list>
+             <section>${sources}
+             </section>
+          </list>
+       </catalogTemplate>
+    </document>`
+   console.log(str)
+   var parser = new DOMParser()
+   var doc = parser.parseFromString(str, 'application/xml')
+   return doc
+}
+
 function parseJson(information) {
    var str = `<?xml version="1.0" encoding="UTF-8" ?>
-   <document>
-      <stackTemplate>
-         <banner>
-            <title>JSON Shelf</title>
-         </banner>
-         <collectionList>
-            <shelf>
-               <prototypes>
-                  <lockup prototype="artwork">
-                     <img binding="@src:{url};" width="200" height="300"/>
-                     <title binding="textContent:{title};" />
-                  </lockup>
-               </prototypes>
-               <section binding="items:{images};" />
-            </shelf>
-         </collectionList>
-      </stackTemplate>
-   </document>`;
+    <document>
+       <stackTemplate>
+          <banner>
+             <title>JSON Shelf</title>
+          </banner>
+          <collectionList>
+             <shelf>
+                <prototypes>
+                   <lockup prototype="artwork">
+                      <img binding="@src:{url};" width="200" height="300"/>
+                      <title binding="textContent:{title};" />
+                   </lockup>
+                </prototypes>
+                <section binding="items:{images};" />
+             </shelf>
+          </collectionList>
+       </stackTemplate>
+    </document>`
    var parser = new DOMParser()
-   var doc = parser.parseFromString(str, "application/xml")
+   var doc = parser.parseFromString(str, 'application/xml')
    navigationDocument.pushDocument(doc)
 
    var results = JSON.parse(information)
@@ -130,96 +182,25 @@ function parseJson(information) {
       objectItem.url = result.url
       objectItem.title = result.title
       return objectItem
-  })
-  let shelf = doc.getElementsByTagName("shelf").item(0)
-  let section = shelf.getElementsByTagName("section").item(0)
-  section.dataItem = new DataItem()
-  section.dataItem.setPropertyPath("images", newItems)
+   })
+   let shelf = doc.getElementsByTagName('shelf').item(0)
+   let section = shelf.getElementsByTagName('section').item(0)
+   section.dataItem = new DataItem()
+   section.dataItem.setPropertyPath('images', newItems)
 }
 
 /**
  * This convenience funnction returns an alert template, which can be used to present errors to the user.
  */
 var createAlert = function (title, description) {
-  var str = `<?xml version="1.0" encoding="UTF-8" ?>
-   <document>
-      <alertTemplate>
-         <title>${title}</title>
-         <description>${description}</description>
-      </alertTemplate>
-   </document>`
-  var parser = new DOMParser()
-  var doc = parser.parseFromString(str, 'application/xml')
-  return doc
-}
-
-var createCompilation = function () {
    var str = `<?xml version="1.0" encoding="UTF-8" ?>
-   <document>
-   <compilationTemplate theme="light">
-       <list>
-           <relatedContent>
-               <itemBanner>
-                   <heroImg src="path to images on your server/Car_Movie_720x1080" />
-                   <row>
-                       <buttonLockup>
-                           <badge src="resource://button-add"/>
-                           <title>Add</title>
-                       </buttonLockup>
-                       <buttonLockup>
-                           <badge src="resource://button-rate"/>
-                           <title>Rate</title>
-                       </buttonLockup>
-                       <buttonLockup>
-                           <badge src="resource://button-shuffle"/>
-                           <title>Shuffle</title>
-                       </buttonLockup>
-                   </row>
-               </itemBanner>
-           </relatedContent>
-           <header>
-               <title>WWDC Roadtrip Soundtrack</title>
-               <subtitle>Various Artists</subtitle>
-               <row>
-                   <text>Instrumental</text>
-                   <text>5 Songs</text>
-                   <text>2015</text>
-               </row>
-           </header>
-           <section>
-               <description>Songs from your favorite movie</description>
-           </section>
-           <section>
-               <listItemLockup>
-                   <ordinal minLength="2">1</ordinal>
-                   <title>Opening sequence</title>
-                   <decorationLabel>11:14</decorationLabel>
-               </listItemLockup>
-               <listItemLockup>
-                   <ordinal minLength="2">2</ordinal>
-                   <title>Fight song</title>
-                   <decorationLabel>3:47</decorationLabel>
-               </listItemLockup>
-               <listItemLockup>
-                   <ordinal minLength="2">3</ordinal>
-                   <title>Love theme</title>
-                   <decorationLabel>6:48</decorationLabel>
-               </listItemLockup>
-               <listItemLockup>
-                   <ordinal minLength="2">4</ordinal>
-                   <title>Car chase</title>
-                   <decorationLabel>5:21</decorationLabel>
-               </listItemLockup>
-               <listItemLockup>
-                   <ordinal minLength="2">5</ordinal>
-                   <title>End credit theme</title>
-                   <decorationLabel>8:03</decorationLabel>
-               </listItemLockup>
-           </section>
-       </list>
-   </compilationTemplate>
-</document>` 
-var parser = new DOMParser() 
-var doc = parser.parseFromString(str, 'application/xml') 
-return doc
+    <document>
+       <alertTemplate>
+          <title>${title}</title>
+          <description>${description}</description>
+       </alertTemplate>
+    </document>`
+   var parser = new DOMParser()
+   var doc = parser.parseFromString(str, 'application/xml')
+   return doc
 }
