@@ -4,14 +4,6 @@
         "url": "http://www.hdpfans.com/thread-804680-1-1.html",
         "list": [
             {
-                "name": "翡翠台HD",
-                "url": "http://qqpull.inke.cn/live/1530340554303998.m3u8"
-            },
-            {
-                "name": "翡翠台",
-                "url": "http://m.567it.com/jade.m3u8"
-            },
-            {
                 "name": "奇妙电视1",
                 "url": "http://media.fantv.hk/m3u8/archive/channel2.m3u8"
             },
@@ -19,25 +11,10 @@
                 "name": "奇妙电视2",
                 "url": "http://media.fantv.hk/m3u8/archive/channel2_stream1.m3u8"
             },
-            {
-                "name": "凤凰资讯",
-                "url": "http://223.82.250.72/live/fhzixun/1.m3u8"
-            },
-            {
-                "name": "本港HKS2",
-                "url": "http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8"
-            },
-            {
-                "name": "香港HKSHD",
-                "url": "http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8"
-            },
+           
             {
                 "name": "RTHK",
                 "url": "http://rthklive1-lh.akamaihd.net/i/rthk31_1@167495/index_1296_av-b.m3u8"
-            },
-            {
-                "name": "RTHKHD",
-                "url": "http://rthklive1-lh.akamaihd.net/i/rthk31_1@167495/index_2052_av-b.m3u8"
             },
             {
                 "name": "澳亚卫视",
@@ -50,10 +27,6 @@
             {
                 "name": "GoodTV好消息2",
                 "url": "http://live.streamingfast.net/osmflivech2.m3u8"
-            },
-            {
-                "name": "中天新闻HD",
-                "url": "http://60.199.188.65/HLS/WG_ETTV-N/index.m3u8"
             },
             {
                 "name": "非凡新聞HD",
@@ -154,10 +127,6 @@
             {
                 "name": "香港卫视",
                 "url": "http://zhibo.hkstv.tv/livestream/zb2yhapo/playlist.m3u8"
-            },
-            {
-                "name": "神州卫视",
-                "url": "http://pull.kapad.cn/live/livechtv/playlist.m3u8"
             },
             {
                 "name": "CHC动作电影频道",

@@ -76,6 +76,12 @@ function replaceDocument(document) {
 
 function playVideo(url) {
    console.log(url)
+   var video = new MediaItem('video', url);
+    var videoList = new Playlist();
+    videoList.push(video)
+    var player = new Player();
+    player.playlist = videoList;
+    player.play();
 }
 
 /**
